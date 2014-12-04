@@ -38,6 +38,6 @@ int _tmain(int argc, _TCHAR* argv[])
    doCppExample1();
 
    ::system("pause");
-	return 0;
+   return 0;
 }
 
