@@ -7,8 +7,8 @@
 /*
 Example 1
 When the head of the list is not a global pointer.
-Example 2 and Example 3 
-When the head of the list is a global pointer. 
+Example 2 and Example 3
+When the head of the list is a global pointer.
 There are some implementation differences between these two examples.
 Example 4
 Used class & structure in that class.
@@ -37,7 +37,6 @@ Example 10
 Generic linked lists.
 */
 
-#include "stdafx.h"
 #include <iostream>
 #include "AlgorithmLinkedList.h"
 
@@ -72,7 +71,7 @@ void LinkedList::insertFront(Node **head, int n)
    Node* newNode = new Node;
    newNode->data = n;
    newNode->next = *head;
-   *head = newNode;   
+   *head = newNode;
 }
 
 Node* LinkedList::searchNode(Node *head, int n)
@@ -159,7 +158,7 @@ int LinkedList::compareLinkedList(Node* node1, Node* node2)
       {
          flag = 0;
       }
-      else 
+      else
       {
          compareLinkedList(node1->next, node2->next);
       }
@@ -194,7 +193,7 @@ void LinkedList::doLinkedListExample1()
 {
 	struct Node *newHead;
 	struct Node *head = new Node;
-	
+
 	initNode(head,10);
 	display(head);
 
@@ -215,7 +214,7 @@ void LinkedList::doLinkedListExample1()
 
 	int numDel = 5;
 	Node *ptrDelete = searchNode(head,numDel);
-	if(deleteNode(&head,ptrDelete)) 
+	if(deleteNode(&head,ptrDelete))
 		cout << "Node "<< numDel << " deleted!\n";
 	display(head);
 
@@ -229,7 +228,7 @@ void LinkedList::doLinkedListExample1()
 
 	cout << "Comparing the two lists...\n";
 	cout << "Are the two lists same?\n";
-	if(compareLinkedList(head,newHead)) 
+	if(compareLinkedList(head,newHead))
 		cout << "Yes, they are same!\n";
 	else
 		cout << "No, they are different!\n";
@@ -244,11 +243,11 @@ void LinkedList::doLinkedListExample1()
 	}
 	cout << "Comparing the two lists again...\n";
 	cout << "Are the two lists same?\n";
-	if(compareLinkedList(head,newHead)) 
+	if(compareLinkedList(head,newHead))
 		cout << "Yes, they are same!\n";
 	else
 		cout << "No, they are different!\n";
-    
+
 	cout << endl;
 	cout << "Deleting the copied list\n";
 	deleteLinkedList(&newHead);

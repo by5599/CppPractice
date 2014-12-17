@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1418779850 source:c:\users\kenny\documents\github\cpppractice\main.cpp
+	<iostream>
+	"AlgorithmLinkedList.h"
+	"AlgorithmSorting.h"
+	"CppExamples.h"
+
+1417731256 c:\users\kenny\documents\github\cpppractice\algorithmlinkedlist.h
+	"AlgorithmBase.h"
+
+1417731210 c:\users\kenny\documents\github\cpppractice\algorithmbase.h
+
+1417731210 c:\users\kenny\documents\github\cpppractice\algorithmsorting.h
+	"AlgorithmBase.h"
+
+1417754453 c:\users\kenny\documents\github\cpppractice\cppexamples.h
+
+1418779895 source:c:\users\kenny\documents\github\cpppractice\algorithmlinkedlist.cpp
+	<iostream>
+	"AlgorithmLinkedList.h"
+
+1418779902 source:c:\users\kenny\documents\github\cpppractice\algorithmsorting.cpp
+	<iostream>
+	<conio.h>
+	"AlgorithmSorting.h"
+
+1417734187 source:c:\users\kenny\documents\github\cpppractice\cppexamples.cpp
+	"CppExamples.h"
+	<iostream>
+
