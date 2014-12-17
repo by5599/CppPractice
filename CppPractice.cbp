@@ -32,6 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="AlgorithmBase.h" />
+		<Unit filename="AlgorithmLinkedList.cpp" />
+		<Unit filename="AlgorithmLinkedList.h" />
+		<Unit filename="AlgorithmSorting.cpp" />
+		<Unit filename="AlgorithmSorting.h" />
+		<Unit filename="CppExamples.cpp" />
+		<Unit filename="CppExamples.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
