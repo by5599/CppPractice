@@ -21,6 +21,14 @@ void doMergeSort()
    mergeSort.doMergeSort();
 }
 
+void doTestSizeOfNoneClass()
+{
+   cout << sizeof(None) << endl;
+   cout << sizeof(Empty) << endl;
+   cout << sizeof(PureAbstract) << endl;
+   cout << sizeof(Something) << endl;
+}
+
 void doCppExample1()
 {
    //Base base;
@@ -36,6 +44,7 @@ int _tmain(int argc, _TCHAR* argv[])
    doLinkedListExample1();
    doMergeSort();
    doCppExample1();
+   doTestSizeOfNoneClass();
 
    ::system("pause");
    return 0;

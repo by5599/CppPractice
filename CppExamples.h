@@ -24,4 +24,24 @@ public:
    virtual void func3();
 };
 
+class None
+{
+};
+
+class PureAbstract
+{
+public:
+   virtual void func() = 0;
+};
+
+class Empty : public None
+{
+};
+
+class Something : public PureAbstract
+{
+public:
+   virtual void func() {}
+};
+
 #endif
