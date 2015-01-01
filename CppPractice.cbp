@@ -39,6 +39,7 @@
 		<Unit filename="AlgorithmSorting.h" />
 		<Unit filename="CppExamples.cpp" />
 		<Unit filename="CppExamples.h" />
+		<Unit filename="LeetCode_211RemoveDuplicatesFromSortedArray.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

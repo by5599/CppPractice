@@ -2,6 +2,7 @@
 #include "AlgorithmLinkedList.h"
 #include "AlgorithmSorting.h"
 #include "CppExamples.h"
+#include "LeetCode_211RemoveDuplicatesFromSortedArray.h"
 
 using namespace std;
 
@@ -35,13 +36,19 @@ void doCppExample1()
    derived->func4();
 }
 
+void doLeetCode211()
+{
+    int A[] = {1, 1, 2};
+    int res = Solution::removeDuplicates(A, 3);
+    cout << "After remove duplicates: " << res << endl;
+}
 int main()
 {
    doLinkedListExample1();
    doMergeSort();
    doCppExample1();
    doTestSizeOfNoneClass();
-
+    doLeetCode211();
 //   ::system("pause");
    return 0;
 }

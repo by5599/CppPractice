@@ -28,3 +28,35 @@
 	"CppExamples.h"
 	<iostream>
 
+1418793167 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
+	<iostream>
+	"AlgorithmLinkedList.h"
+
+1418793003 c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.h
+	"AlgorithmBase.h"
+
+1418793003 c:\users\emma\documents\github\cpppractice\algorithmbase.h
+
+1418793167 source:c:\users\emma\documents\github\cpppractice\algorithmsorting.cpp
+	<iostream>
+	<conio.h>
+	"AlgorithmSorting.h"
+
+1418793003 c:\users\emma\documents\github\cpppractice\algorithmsorting.h
+	"AlgorithmBase.h"
+
+1418793003 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
+	"CppExamples.h"
+	<iostream>
+
+1418793003 c:\users\emma\documents\github\cpppractice\cppexamples.h
+
+1420096907 source:c:\users\emma\documents\github\cpppractice\main.cpp
+	<iostream>
+	"AlgorithmLinkedList.h"
+	"AlgorithmSorting.h"
+	"CppExamples.h"
+	"LeetCode_211RemoveDuplicatesFromSortedArray.h"
+
+1420096676 c:\users\emma\documents\github\cpppractice\leetcode_211removeduplicatesfromsortedarray.h
+
