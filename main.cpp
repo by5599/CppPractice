@@ -1,8 +1,13 @@
-#include <iostream>
+
 #include "AlgorithmLinkedList.h"
 #include "AlgorithmSorting.h"
 #include "CppExamples.h"
-#include "LeetCode_211RemoveDuplicatesFromSortedArray.h"
+#include "LC026_211RemoveDuplicatesFromSortedArray.h"
+#include "LC080_212RemoveDuplicatesFromSortedArrayII.h"
+#include "LC033_213SearchInRotatedSortedArray.h"
+#include <thread>
+#include <windows.h>
+#include "Common.h"
 
 using namespace std;
 
@@ -36,32 +41,35 @@ void doCppExample1()
    derived->func4();
 }
 
-void doLeetCode211()
+
+
+void foo(string msg)
 {
-    int A[] = {1, 1, 2, 3, 3, 3, 5, 8};
-    int res = Solution::removeDuplicates(A, sizeof(A) / sizeof(int));
-    cout << "After remove duplicates: " << res << endl;
-    cout << "The new array:" << endl;
-    for (int i = 0; i < res; i++)
-    {
-        if (i + 1 == res)
-        {
-            cout << A[i];
-        }
-        else
-        {
-            cout << A[i] << ",";
-        }
-    }
-    cout << endl;
+    cout << "thread1 says: " << msg;
 }
+
+void bar(string msg)
+{
+    cout << "thread2 says: " << msg;
+}
+
 int main()
 {
-   doLinkedListExample1();
-   doMergeSort();
-   doCppExample1();
-   doTestSizeOfNoneClass();
-    doLeetCode211();
-//   ::system("pause");
+    doLC026();
+    doLC080();
+    doLC033();
+
+
+
+    int i, &ri = i;
+    i = 5; ri = 10;
+    //std::cout << i << " " << ri << std::endl;
+    //doLinkedListExample1();
+    //doMergeSort();
+    //doCppExample1();
+    //doTestSizeOfNoneClass();
+
+   ::system("pause");
+
    return 0;
 }
