@@ -1,5 +1,5 @@
-#ifndef LC026_REMOVE_DUPLICATES_FROM_SORTED_ARRAY_H
-#define LC026_REMOVE_DUPLICATES_FROM_SORTED_ARRAY_H
+#ifndef LC211_REMOVE_DUPLICATES_FROM_SORTED_ARRAY_H
+#define LC211_REMOVE_DUPLICATES_FROM_SORTED_ARRAY_H
 
 #include "Common.h"
 
@@ -29,7 +29,7 @@ To remember:
 3. return the lp
 ************/
 
-class Solution026
+class Solution211
 {
 public:
    static int removeDuplicates(int arr[], int n)
@@ -52,41 +52,41 @@ public:
    }
 };
 
-void doLC026()
+void doLC211()
 {
-    int A[] = {1, 1, 2, 3, 3, 3, 5, 8};
+   int A[] = {1, 1, 2, 3, 3, 3, 5, 8};
 
-    std::cout << "-----------------------------------\n";
-    std::cout << "Remove duplicates from sorted array\n";
-    std::cout << "The array before operation:\n";
-    int arrSize = sizeof(A) / sizeof(int);
-    for (int i = 0; i < arrSize; i++)
-    {
-        if ( i == arrSize - 1)
-        {
-            std::cout << A[i];
-        }
-        else
-        {
-            std::cout << A[i] << ",";
-        }
-    }
-    std::cout << "\n";
-    int res = Solution026::removeDuplicates(A, sizeof(A) / sizeof(int));
-    std::cout << "After remove duplicates: the size of array is " << res << std::endl;
-    std::cout << "The new array:" << std::endl;
-    for (int i = 0; i < res; i++)
-    {
-        if (i + 1 == res)
-        {
-            std::cout << A[i];
-        }
-        else
-        {
-            std::cout << A[i] << ",";
-        }
-    }
-    std::cout << "\n";
+   std::cout << "-----------------------------------\n";
+   std::cout << "Remove duplicates from sorted array\n";
+   std::cout << "The array before operation:\n";
+   int arrSize = sizeof(A) / sizeof(int);
+   for (int i = 0; i < arrSize; i++)
+   {
+      if ( i == arrSize - 1)
+      {
+         std::cout << A[i];
+      }
+      else
+      {
+         std::cout << A[i] << ",";
+      }
+   }
+   std::cout << "\n";
+   int res = Solution211::removeDuplicates(A, sizeof(A) / sizeof(int));
+   std::cout << "After remove duplicates: the size of array is " << res << std::endl;
+   std::cout << "The new array:" << std::endl;
+   for (int i = 0; i < res; i++)
+   {
+      if (i + 1 == res)
+      {
+         std::cout << A[i];
+      }
+      else
+      {
+         std::cout << A[i] << ",";
+      }
+   }
+   std::cout << "\n";
 }
 
-#endif // LC026_REMOVE_DUPLICATES_FROM_SORTED_ARRAY_H
+#endif

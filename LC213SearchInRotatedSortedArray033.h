@@ -1,5 +1,5 @@
-#ifndef LC033_SEARCH_IN_ROTATED_SORTED_ARRAY_H
-#define LC033_SEARCH_IN_ROTATED_SORTED_ARRAY_H
+#ifndef LC213_SEARCH_IN_ROTATED_SORTED_ARRAY_H
+#define LC213_SEARCH_IN_ROTATED_SORTED_ARRAY_H
 
 #include "Common.h"
 
@@ -24,7 +24,7 @@ To remember:
 3.
 ************/
 
-class Solution033
+class Solution213
 {
 public:
    static int search(int arr[], int n, int target)
@@ -56,28 +56,28 @@ public:
    }
 };
 
-void doLC033()
+void doLC213()
 {
-    int A[] = {4, 5, 6, 7, 0, 1, 2};
+   int A[] = {4, 5, 6, 7, 0, 1, 2};
 
-    std::cout << "------------------------------\n";
-    std::cout << "Search in rotated sorted array\n";
-    std::cout << "The array:\n";
-    int arrSize = sizeof(A) / sizeof(int);
-    for (int i = 0; i < arrSize; i++)
-    {
-        if ( i == arrSize - 1)
-        {
-            std::cout << A[i];
-        }
-        else
-        {
-            std::cout << A[i] << ",";
-        }
-    }
-    std::cout << "\n";
-    int res = Solution033::search(A, sizeof(A) / sizeof(int), 1);
-    std::cout << "The index: " << res << std::endl;
+   std::cout << "------------------------------\n";
+   std::cout << "Search in rotated sorted array\n";
+   std::cout << "The array:\n";
+   int arrSize = sizeof(A) / sizeof(int);
+   for (int i = 0; i < arrSize; i++)
+   {
+      if ( i == arrSize - 1)
+      {
+         std::cout << A[i];
+      }
+      else
+      {
+         std::cout << A[i] << ",";
+      }
+   }
+   std::cout << "\n";
+   int res = Solution213::search(A, sizeof(A) / sizeof(int), 1);
+   std::cout << "The index: " << res << std::endl;
 }
 
 #endif

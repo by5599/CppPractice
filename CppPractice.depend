@@ -51,11 +51,18 @@
 
 1418796603 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1432852119 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1434653439 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmSorting.h"
 	"CppExamples.h"
-	"LC026_211RemoveDuplicatesFromSortedArray.h"
+	"LC211RemoveDuplicatesFromSortedArray026.h"
+	"LC212RemoveDuplicatesFromSortedArrayII080.h"
+	"LC213SearchInRotatedSortedArray033.h"
+	"LC214SearchInRotatedSortedArrayII081.h"
+	"LC33StringToIntegeratoi008.h"
+	"LC215MedianOfTwoSortedArrays_004.h"
+	"LC216LongestConsecutiveSequence.h"
+	"LC511BinaryTreePreorderTraversal.h"
 	<thread>
 	<windows.h>
 	"Common.h"
@@ -65,6 +72,42 @@
 1432874404 c:\users\emma\documents\github\cpppractice\lc026_211removeduplicatesfromsortedarray.h
 	"Common.h"
 
-1432852119 c:\users\emma\documents\github\cpppractice\common.h
+1434653980 c:\users\emma\documents\github\cpppractice\common.h
 	<iostream>
+	<vector>
+
+1433195429 c:\users\emma\documents\github\cpppractice\lc211removeduplicatesfromsortedarray026.h
+	"Common.h"
+
+1433195494 c:\users\emma\documents\github\cpppractice\lc212removeduplicatesfromsortedarrayii080.h
+	"Common.h"
+
+1433195533 c:\users\emma\documents\github\cpppractice\lc213searchinrotatedsortedarray033.h
+	"Common.h"
+
+1433195589 c:\users\emma\documents\github\cpppractice\lc214searchinrotatedsortedarrayii081.h
+	"Common.h"
+
+1434651464 c:\users\emma\documents\github\cpppractice\lc33stringtointegeratoi008.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1434605358 c:\users\emma\documents\github\cpppractice\lc215medianoftwosortedarrays_004.h
+	"Common.h"
+	<algorithm>
+
+1434609405 c:\users\emma\documents\github\cpppractice\lc511binarytreepreordertraversal.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+
+1434653594 c:\users\emma\documents\github\cpppractice\lc216longestconsecutivesequence.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
 

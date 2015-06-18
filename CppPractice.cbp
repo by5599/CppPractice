@@ -40,8 +40,13 @@
 		<Unit filename="Common.h" />
 		<Unit filename="CppExamples.cpp" />
 		<Unit filename="CppExamples.h" />
-		<Unit filename="LC026_211RemoveDuplicatesFromSortedArray.h" />
 		<Unit filename="LC080_212RemoveDuplicatesFromSortedArrayII.h" />
+		<Unit filename="LC211RemoveDuplicatesFromSortedArray026.h" />
+		<Unit filename="LC212RemoveDuplicatesFromSortedArrayII080.h" />
+		<Unit filename="LC213SearchInRotatedSortedArray033.h" />
+		<Unit filename="LC214SearchInRotatedSortedArrayII081.h" />
+		<Unit filename="LC215MedianOfTwoSortedArrays_004.h" />
+		<Unit filename="LC33StringToIntegeratoi008.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
