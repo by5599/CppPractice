@@ -40,13 +40,34 @@
 		<Unit filename="Common.h" />
 		<Unit filename="CppExamples.cpp" />
 		<Unit filename="CppExamples.h" />
-		<Unit filename="LC080_212RemoveDuplicatesFromSortedArrayII.h" />
+		<Unit filename="LC020207RemoveNthNodeFromEndOfList.h" />
+		<Unit filename="LC1102Sqrt.h" />
+		<Unit filename="LC1501ReverseInteger.h" />
 		<Unit filename="LC211RemoveDuplicatesFromSortedArray026.h" />
 		<Unit filename="LC212RemoveDuplicatesFromSortedArrayII080.h" />
 		<Unit filename="LC213SearchInRotatedSortedArray033.h" />
 		<Unit filename="LC214SearchInRotatedSortedArrayII081.h" />
 		<Unit filename="LC215MedianOfTwoSortedArrays_004.h" />
+		<Unit filename="LC216LongestConsecutiveSequence.h" />
+		<Unit filename="LC217TwoSum.h" />
+		<Unit filename="LC218ThreeSum.h" />
 		<Unit filename="LC33StringToIntegeratoi008.h" />
+		<Unit filename="LC511BinaryTreePreorderTraversal.h" />
+		<Unit filename="LCChapter10.h" />
+		<Unit filename="LCChapter11.h" />
+		<Unit filename="LCChapter12.h" />
+		<Unit filename="LCChapter13.h" />
+		<Unit filename="LCChapter14.h" />
+		<Unit filename="LCChapter15.h" />
+		<Unit filename="LCChapter2.h" />
+		<Unit filename="LCChapter3.h" />
+		<Unit filename="LCChapter4.h" />
+		<Unit filename="LCChapter5.h" />
+		<Unit filename="LCChapter6.h" />
+		<Unit filename="LCChapter7.h" />
+		<Unit filename="LCChapter8.h" />
+		<Unit filename="LCChapter9.h" />
+		<Unit filename="LCReverseWordsInAString.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

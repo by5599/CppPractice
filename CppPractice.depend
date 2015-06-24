@@ -32,10 +32,11 @@
 	<iostream>
 	"AlgorithmLinkedList.h"
 
-1418796603 c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.h
+1435178248 c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.h
 	"AlgorithmBase.h"
+	<vector>
 
-1418796603 c:\users\emma\documents\github\cpppractice\algorithmbase.h
+1435177932 c:\users\emma\documents\github\cpppractice\algorithmbase.h
 
 1418796767 source:c:\users\emma\documents\github\cpppractice\algorithmsorting.cpp
 	<iostream>
@@ -51,18 +52,25 @@
 
 1418796603 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1434653439 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1434768399 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmSorting.h"
 	"CppExamples.h"
-	"LC211RemoveDuplicatesFromSortedArray026.h"
-	"LC212RemoveDuplicatesFromSortedArrayII080.h"
-	"LC213SearchInRotatedSortedArray033.h"
-	"LC214SearchInRotatedSortedArrayII081.h"
-	"LC33StringToIntegeratoi008.h"
-	"LC215MedianOfTwoSortedArrays_004.h"
-	"LC216LongestConsecutiveSequence.h"
-	"LC511BinaryTreePreorderTraversal.h"
+	"LCChapter2.h"
+	"LCChapter3.h"
+	"LCChapter4.h"
+	"LCChapter5.h"
+	"LCChapter6.h"
+	"LCChapter7.h"
+	"LCChapter8.h"
+	"LCChapter9.h"
+	"LCChapter10.h"
+	"LCChapter11.h"
+	"LCChapter12.h"
+	"LCChapter13.h"
+	"LCChapter14.h"
+	"LCChapter15.h"
+	"LCReverseWordsInAString.h"
 	<thread>
 	<windows.h>
 	"Common.h"
@@ -72,40 +80,145 @@
 1432874404 c:\users\emma\documents\github\cpppractice\lc026_211removeduplicatesfromsortedarray.h
 	"Common.h"
 
-1434653980 c:\users\emma\documents\github\cpppractice\common.h
+1435178318 c:\users\emma\documents\github\cpppractice\common.h
 	<iostream>
 	<vector>
 
-1433195429 c:\users\emma\documents\github\cpppractice\lc211removeduplicatesfromsortedarray026.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc211removeduplicatesfromsortedarray026.h
 	"Common.h"
 
-1433195494 c:\users\emma\documents\github\cpppractice\lc212removeduplicatesfromsortedarrayii080.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc212removeduplicatesfromsortedarrayii080.h
 	"Common.h"
 
-1433195533 c:\users\emma\documents\github\cpppractice\lc213searchinrotatedsortedarray033.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc213searchinrotatedsortedarray033.h
 	"Common.h"
 
-1433195589 c:\users\emma\documents\github\cpppractice\lc214searchinrotatedsortedarrayii081.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc214searchinrotatedsortedarrayii081.h
 	"Common.h"
 
-1434651464 c:\users\emma\documents\github\cpppractice\lc33stringtointegeratoi008.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc33stringtointegeratoi008.h
 	"Common.h"
 	<string.h>
 	<limits.h>
 	<stdio.h>
 
-1434605358 c:\users\emma\documents\github\cpppractice\lc215medianoftwosortedarrays_004.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc215medianoftwosortedarrays_004.h
 	"Common.h"
 	<algorithm>
 
-1434609405 c:\users\emma\documents\github\cpppractice\lc511binarytreepreordertraversal.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc511binarytreepreordertraversal.h
 	"Common.h"
 	<algorithm>
 	<vector>
 	<stack>
 
-1434653594 c:\users\emma\documents\github\cpppractice\lc216longestconsecutivesequence.h
+1434655981 c:\users\emma\documents\github\cpppractice\lc216longestconsecutivesequence.h
 	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1435179899 c:\users\emma\documents\github\cpppractice\lcchapter2.h
+	"LC211RemoveDuplicatesFromSortedArray026.h"
+	"LC212RemoveDuplicatesFromSortedArrayII080.h"
+	"LC213SearchInRotatedSortedArray033.h"
+	"LC214SearchInRotatedSortedArrayII081.h"
+	"LC215MedianOfTwoSortedArrays_004.h"
+	"LC216LongestConsecutiveSequence.h"
+	"LC217TwoSum.h"
+	"LC218ThreeSum.h"
+	"LC020201AddTwoNumbers.h"
+	"LC020207RemoveNthNodeFromEndOfList.h"
+	"LC1102Sqrt.h"
+	"LCReverseLinkedList.h"
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc217twosum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1434657967 c:\users\emma\documents\github\cpppractice\lc218threesum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1434768399 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+	"LC33StringToIntegeratoi008.h"
+
+1434655442 c:\users\emma\documents\github\cpppractice\lcchapter4.h
+
+1434768399 c:\users\emma\documents\github\cpppractice\lcchapter5.h
+	"LC511BinaryTreePreorderTraversal.h"
+
+1434655541 c:\users\emma\documents\github\cpppractice\lcchapter6.h
+
+1434655541 c:\users\emma\documents\github\cpppractice\lcchapter7.h
+
+1434655541 c:\users\emma\documents\github\cpppractice\lcchapter8.h
+
+1434655541 c:\users\emma\documents\github\cpppractice\lcchapter9.h
+
+1434655541 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+
+1434768399 c:\users\emma\documents\github\cpppractice\lcchapter11.h
+
+1434655576 c:\users\emma\documents\github\cpppractice\lcchapter12.h
+
+1434655562 c:\users\emma\documents\github\cpppractice\lcchapter13.h
+
+1434655576 c:\users\emma\documents\github\cpppractice\lcchapter14.h
+
+1434768399 c:\users\emma\documents\github\cpppractice\lcchapter15.h
+	"LC1501ReverseInteger.h"
+
+1434661246 c:\users\emma\documents\github\cpppractice\lcreversewordsinastring.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<string>
+
+1434753935 c:\users\emma\documents\github\cpppractice\lc1501reverseinteger.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1435177750 c:\users\emma\documents\github\cpppractice\lc020207removenthnodefromendoflist.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+
+1435177964 c:\users\emma\documents\github\cpppractice\lc020201addtwonumbers.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1434768175 c:\users\emma\documents\github\cpppractice\lc1102sqrt.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1435179965 c:\users\emma\documents\github\cpppractice\lcreverselinkedlist.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
 	<algorithm>
 	<vector>
 	<stack>

@@ -34,4 +34,16 @@ void PrintVector(std::vector<int> vi)
    }
 }
 
+void PrintLinkedList(Node* l)
+{
+   if (l == NULL)
+      std::cout<< "Empty list!!\n";
+   Node* p = l;
+   for (;p != NULL; p = p->next)
+   {
+      std::cout << p->data << " ";
+   }
+   std::cout << "\n";
+}
+
 #endif // COMMON_H_INCLUDED

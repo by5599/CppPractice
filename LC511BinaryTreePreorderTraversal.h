@@ -87,7 +87,7 @@ public:
    }
 };
 
-void doLC511()
+void doLC511PreorderTraversalTree()
 {
    int a[] = {1,0,2,3};
    TreeNode* p = createTree(a, sizeof(a)/sizeof(int));

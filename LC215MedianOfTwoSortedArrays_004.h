@@ -46,7 +46,7 @@ private:
    }
 };
 
-void doLC215()
+void doLC215MedianInSortedArray()
 {
    int A[] = {1, 3, 5, 6, 8};
    int B[] = {2, 4, 7, 9, 11, 15, 16, 23};

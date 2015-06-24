@@ -78,7 +78,7 @@ public:
    }
 };
 
-void doLC33()
+void doLC33atoi()
 {
    std::cout << "---------------------------------\n";
    std::cout << "String to integer\n";

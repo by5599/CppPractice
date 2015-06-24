@@ -2,14 +2,22 @@
 #include "AlgorithmLinkedList.h"
 #include "AlgorithmSorting.h"
 #include "CppExamples.h"
-#include "LC211RemoveDuplicatesFromSortedArray026.h"
-#include "LC212RemoveDuplicatesFromSortedArrayII080.h"
-#include "LC213SearchInRotatedSortedArray033.h"
-#include "LC214SearchInRotatedSortedArrayII081.h"
-#include "LC33StringToIntegeratoi008.h"
-#include "LC215MedianOfTwoSortedArrays_004.h"
-#include "LC216LongestConsecutiveSequence.h"
-#include "LC511BinaryTreePreorderTraversal.h"
+#include "LCChapter2.h"
+#include "LCChapter3.h"
+#include "LCChapter4.h"
+#include "LCChapter5.h"
+#include "LCChapter6.h"
+#include "LCChapter7.h"
+#include "LCChapter8.h"
+#include "LCChapter9.h"
+#include "LCChapter10.h"
+#include "LCChapter11.h"
+#include "LCChapter12.h"
+#include "LCChapter13.h"
+#include "LCChapter14.h"
+#include "LCChapter15.h"
+#include "LCReverseWordsInAString.h"
+
 #include <thread>
 #include <windows.h>
 #include "Common.h"
@@ -65,15 +73,12 @@ cout << ia[i] << endl;
 }
 int main()
 {
-   doLC211();
-   doLC212();
-   doLC213();
-   doLC214();
-   doLC33();
-   doLC215();
-   doLC216();
-   doLC511();
+   doChapter2();
+   doChapter3();
+   doChapter5();
+   doChapter11();
 
+   doLCReverseString();
 
     int i, &ri = i;
     i = 5; ri = 10;

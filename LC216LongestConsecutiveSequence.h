@@ -55,7 +55,7 @@ public:
    }
 };
 
-void doLC216()
+void doLC216LongestConsecutive()
 {
    std::vector<int> a = {100,4,200,1,3,2};
 

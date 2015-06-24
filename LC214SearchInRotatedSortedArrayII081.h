@@ -53,7 +53,7 @@ public:
    }
 };
 
-void doLC214()
+void doLC214Search()
 {
    int A[] = {6, 7, 7, 0, 1, 2, 3, 3, 3, 4, 5};
 

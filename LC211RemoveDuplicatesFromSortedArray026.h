@@ -52,7 +52,7 @@ public:
    }
 };
 
-void doLC211()
+void doLC211RemoveDuplicates()
 {
    int A[] = {1, 1, 2, 3, 3, 3, 5, 8};
 

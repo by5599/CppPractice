@@ -56,7 +56,7 @@ public:
    }
 };
 
-void doLC213()
+void doLC213Search()
 {
    int A[] = {4, 5, 6, 7, 0, 1, 2};
 
