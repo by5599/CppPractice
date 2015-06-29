@@ -67,7 +67,7 @@ void doLC020207RemoveNthNodeFromEndOfList()
    Node* theList = createLinkedList(a);
    Node* updatedList = Solution020207::removeNthFromEnd(theList,2);
    std::cout << "The updated list: ";
-   LinkedList::display(updatedList);
+   PrintLinkedList(updatedList);
    //std::cout << "The longest consecutive: " << res << std::endl;
 }
 

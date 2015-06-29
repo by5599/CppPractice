@@ -21,7 +21,7 @@ public:
    static void doLinkedListExample1();
 };
 
-static Node* createLinkedList(std::vector<int>& v)
+static Node* createLinkedList(std::vector<int>& v, bool cycled = false)
 {
    if (v.size() == 0)
       return nullptr;
@@ -33,7 +33,17 @@ static Node* createLinkedList(std::vector<int>& v)
    {
       LinkedList::addNode(head,*iter);
    }
-   LinkedList::display(head);
+   //LinkedList::display(head);
+
+   if (cycled)
+   {
+      Node* p = head;
+      while (p->next != nullptr)
+      {
+         p = p->next;
+      }
+      p->next = head;
+   }
    return head;
 }
 

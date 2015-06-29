@@ -75,8 +75,18 @@ int main()
 {
    doChapter2();
    doChapter3();
+   doChapter4();
    doChapter5();
+   doChapter6();
+   doChapter7();
+   doChapter8();
+   doChapter9();
+   doChapter10();
    doChapter11();
+   doChapter12();
+   doChapter13();
+   doChapter14();
+   doChapter15();
 
    doLCReverseString();
 

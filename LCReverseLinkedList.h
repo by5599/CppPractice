@@ -28,12 +28,12 @@ To remember:
 void doLCReverseLinkedList()
 {
    std::vector<int> a = {1,2,3,4,5};
-   Node* l = createLinkedList(a);
 
    std::cout << "---------------------------------\n";
    std::cout << "Reverse Linked List:\n";
    std::cout << "The List:\n";
    PrintVector(a);
+   Node* l = createLinkedList(a);
 
    Node* res = LinkedList::reverse(&l);
    std::cout << "The result: " << std::endl;

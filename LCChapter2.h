@@ -11,6 +11,7 @@
 #include "LC218ThreeSum.h"
 #include "LC020201AddTwoNumbers.h"
 #include "LC020207RemoveNthNodeFromEndOfList.h"
+#include "LC020211LinkedListCycle.h"
 #include "LC1102Sqrt.h"
 #include "LCReverseLinkedList.h"
 
@@ -26,6 +27,7 @@ void doChapter2()
    doLC218ThreeSum();
    doLC020201AddTwoNumbers();
    doLC020207RemoveNthNodeFromEndOfList();
+   doLC020211LinkedListCycle();
    doLCReverseLinkedList();
 }
 #endif

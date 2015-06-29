@@ -40,7 +40,10 @@
 		<Unit filename="Common.h" />
 		<Unit filename="CppExamples.cpp" />
 		<Unit filename="CppExamples.h" />
+		<Unit filename="LC020201AddTwoNumbers.h" />
 		<Unit filename="LC020207RemoveNthNodeFromEndOfList.h" />
+		<Unit filename="LC020211LinkedListCycle.h" />
+		<Unit filename="LC0602MergeTwoSortedList.h" />
 		<Unit filename="LC1102Sqrt.h" />
 		<Unit filename="LC1501ReverseInteger.h" />
 		<Unit filename="LC211RemoveDuplicatesFromSortedArray026.h" />
@@ -67,6 +70,7 @@
 		<Unit filename="LCChapter7.h" />
 		<Unit filename="LCChapter8.h" />
 		<Unit filename="LCChapter9.h" />
+		<Unit filename="LCReverseLinkedList.h" />
 		<Unit filename="LCReverseWordsInAString.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
