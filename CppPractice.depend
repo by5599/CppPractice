@@ -50,9 +50,9 @@
 	"CppExamples.h"
 	<iostream>
 
-1418796603 c:\users\emma\documents\github\cpppractice\cppexamples.h
+1435623150 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1435537399 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1435623202 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmSorting.h"
 	"CppExamples.h"
@@ -80,7 +80,7 @@
 1432874404 c:\users\emma\documents\github\cpppractice\lc026_211removeduplicatesfromsortedarray.h
 	"Common.h"
 
-1435178318 c:\users\emma\documents\github\cpppractice\common.h
+1435730271 c:\users\emma\documents\github\cpppractice\common.h
 	<iostream>
 	<vector>
 
@@ -119,15 +119,21 @@
 	<stack>
 	<unordered_map>
 
-1435538650 c:\users\emma\documents\github\cpppractice\lcchapter2.h
-	"LC211RemoveDuplicatesFromSortedArray026.h"
-	"LC212RemoveDuplicatesFromSortedArrayII080.h"
-	"LC213SearchInRotatedSortedArray033.h"
-	"LC214SearchInRotatedSortedArrayII081.h"
-	"LC215MedianOfTwoSortedArrays_004.h"
-	"LC216LongestConsecutiveSequence.h"
-	"LC217TwoSum.h"
-	"LC218ThreeSum.h"
+1435730925 c:\users\emma\documents\github\cpppractice\lcchapter2.h
+	"LC020101RemoveDuplicatesFromSortedArray026.h"
+	"LC020102RemoveDuplicatesFromSortedArrayII080.h"
+	"LC020103SearchInRotatedSortedArray033.h"
+	"LC020104SearchInRotatedSortedArrayII081.h"
+	"LC020105MedianOfTwoSortedArrays_004.h"
+	"LC020106LongestConsecutiveSequence.h"
+	"LC020107TwoSum.h"
+	"LC020108ThreeSum.h"
+	"LC020109ThreeSumClosest.h"
+	"LC020110FourSum.h"
+	"LC020111RemoveElement.h"
+	"LC020112NextPermutation.h"
+	"LC020113PermutationSequence.h"
+	"LC020114ValidSudoku.h"
 	"LC020201AddTwoNumbers.h"
 	"LC020207RemoveNthNodeFromEndOfList.h"
 	"LC020211LinkedListCycle.h"
@@ -148,13 +154,13 @@
 	<stack>
 	<unordered_map>
 
-1434768399 c:\users\emma\documents\github\cpppractice\lcchapter3.h
-	"LC33StringToIntegeratoi008.h"
+1435730925 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+	"LC0303StringToIntegeratoi008.h"
 
 1435537399 c:\users\emma\documents\github\cpppractice\lcchapter4.h
 
-1434768399 c:\users\emma\documents\github\cpppractice\lcchapter5.h
-	"LC511BinaryTreePreorderTraversal.h"
+1435730925 c:\users\emma\documents\github\cpppractice\lcchapter5.h
+	"LC050101BinaryTreePreorderTraversal.h"
 
 1435537399 c:\users\emma\documents\github\cpppractice\lcchapter6.h
 	"LC0602MergeTwoSortedList.h"
@@ -226,7 +232,7 @@
 	<stack>
 	<unordered_map>
 
-1435540135 c:\users\emma\documents\github\cpppractice\lc020211linkedlistcycle.h
+1435553549 c:\users\emma\documents\github\cpppractice\lc020211linkedlistcycle.h
 	"Common.h"
 	"AlgorithmBase.h"
 	"AlgorithmLinkedList.h"
@@ -243,4 +249,101 @@
 	<vector>
 	<stack>
 	<unordered_map>
+
+1435706884 c:\users\emma\documents\github\cpppractice\lc020109threesumclosest.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1435707093 c:\users\emma\documents\github\cpppractice\lc020110foursum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1435707886 c:\users\emma\documents\github\cpppractice\lc020111removeelement.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1435719357 c:\users\emma\documents\github\cpppractice\lc020112nextpermutation.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1435721348 c:\users\emma\documents\github\cpppractice\lc020113permutationsequence.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1435729838 c:\users\emma\documents\github\cpppractice\lc020114validsudoku.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020101removeduplicatesfromsortedarray026.h
+	"Common.h"
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020102removeduplicatesfromsortedarrayii080.h
+	"Common.h"
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020103searchinrotatedsortedarray033.h
+	"Common.h"
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020104searchinrotatedsortedarrayii081.h
+	"Common.h"
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020105medianoftwosortedarrays_004.h
+	"Common.h"
+	<algorithm>
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020106longestconsecutivesequence.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc020107twosum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1434657967 c:\users\emma\documents\github\cpppractice\lc020108threesum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc0303stringtointegeratoi008.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1434655981 c:\users\emma\documents\github\cpppractice\lc050101binarytreepreordertraversal.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
 

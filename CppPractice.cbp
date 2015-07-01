@@ -40,6 +40,8 @@
 		<Unit filename="Common.h" />
 		<Unit filename="CppExamples.cpp" />
 		<Unit filename="CppExamples.h" />
+		<Unit filename="LC020109ThreeSumClosest.h" />
+		<Unit filename="LC020110FourSum.h" />
 		<Unit filename="LC020201AddTwoNumbers.h" />
 		<Unit filename="LC020207RemoveNthNodeFromEndOfList.h" />
 		<Unit filename="LC020211LinkedListCycle.h" />

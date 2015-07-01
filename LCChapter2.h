@@ -1,14 +1,21 @@
 #ifndef LC_CHAPTER2_H
 #define LC_CHAPTER2_H
 
-#include "LC211RemoveDuplicatesFromSortedArray026.h"
-#include "LC212RemoveDuplicatesFromSortedArrayII080.h"
-#include "LC213SearchInRotatedSortedArray033.h"
-#include "LC214SearchInRotatedSortedArrayII081.h"
-#include "LC215MedianOfTwoSortedArrays_004.h"
-#include "LC216LongestConsecutiveSequence.h"
-#include "LC217TwoSum.h"
-#include "LC218ThreeSum.h"
+#include "LC020101RemoveDuplicatesFromSortedArray026.h"
+#include "LC020102RemoveDuplicatesFromSortedArrayII080.h"
+#include "LC020103SearchInRotatedSortedArray033.h"
+#include "LC020104SearchInRotatedSortedArrayII081.h"
+#include "LC020105MedianOfTwoSortedArrays_004.h"
+#include "LC020106LongestConsecutiveSequence.h"
+#include "LC020107TwoSum.h"
+#include "LC020108ThreeSum.h"
+#include "LC020109ThreeSumClosest.h"
+#include "LC020110FourSum.h"
+#include "LC020111RemoveElement.h"
+#include "LC020112NextPermutation.h"
+#include "LC020113PermutationSequence.h"
+#include "LC020114ValidSudoku.h"
+
 #include "LC020201AddTwoNumbers.h"
 #include "LC020207RemoveNthNodeFromEndOfList.h"
 #include "LC020211LinkedListCycle.h"
@@ -25,6 +32,13 @@ void doChapter2()
    doLC216LongestConsecutive();
    doLC217TwoSum();
    doLC218ThreeSum();
+   doLC020109ThreeSumClosest();
+   doLC020110FourSum();
+   doLC020111RemoveElement();
+   doLC020112NextPermutation();
+   doLC020113PermutationSequence();
+   doLC020114ValidSudoku();
+
    doLC020201AddTwoNumbers();
    doLC020207RemoveNthNodeFromEndOfList();
    doLC020211LinkedListCycle();

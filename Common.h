@@ -24,12 +24,27 @@ void PrintVector(std::vector<int> vi)
 {
    for(auto iter = vi.cbegin(); iter != vi.cend(); ++iter)
    {
-      if (*iter == vi.back())
+      if (iter == prev(vi.end()))
       {
          std::cout << *iter << "\n";
       }
       else{
          std::cout << *iter << ",";
+      }
+   }
+}
+
+template <typename X>
+void PrintAnything(std::vector<X> vx)
+{
+   for(auto iter = vx.cbegin(); iter != vx.cend(); ++iter)
+   {
+      if ( iter == prev(vx.end()) )
+      {
+         std::cout << *iter << "\n";
+      }
+      else{
+         std::cout << *iter << " ";
       }
    }
 }

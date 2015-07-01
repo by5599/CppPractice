@@ -95,7 +95,7 @@ int main()
     //std::cout << i << " " << ri << std::endl;
     //doLinkedListExample1();
     //doMergeSort();
-    //doCppExample1();
+    doCppExample1();
     //doTestSizeOfNoneClass();
 
    ::system("pause");

@@ -22,6 +22,13 @@ public:
    //virtual void func1();
    virtual void func2() override;
    virtual void func3();
+   virtual void func5() {}
+};
+
+class Derived2 : public Derived
+{
+public:
+   virtual void func5() {}
 };
 
 class None
