@@ -29,6 +29,8 @@ class Derived2 : public Derived
 {
 public:
    virtual void func5() {}
+   void func1(int i);
+   void func3();
 };
 
 class None

@@ -15,6 +15,8 @@
 #include "LC020112NextPermutation.h"
 #include "LC020113PermutationSequence.h"
 #include "LC020114ValidSudoku.h"
+#include "LC020115TrappingRainWater.h"
+#include "LC020116RotatImage.h"
 
 #include "LC020201AddTwoNumbers.h"
 #include "LC020207RemoveNthNodeFromEndOfList.h"
@@ -38,6 +40,8 @@ void doChapter2()
    doLC020112NextPermutation();
    doLC020113PermutationSequence();
    doLC020114ValidSudoku();
+   doLC020115TrappingRainWater();
+   doLC020116RotateImage();
 
    doLC020201AddTwoNumbers();
    doLC020207RemoveNthNodeFromEndOfList();

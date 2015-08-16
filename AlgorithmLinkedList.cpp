@@ -55,6 +55,7 @@ void LinkedList::addNode(Node *head, int n)
    newNode->next = NULL;
 
    Node *cur = head;
+
    while (cur)
    {
       if (cur->next == NULL)
@@ -70,7 +71,7 @@ void LinkedList::insertFront(Node **head, int n)
 {
    Node* newNode = new Node;
    newNode->data = n;
-   newNode->next = *head;
+   newNode->next = *head;  // Just make the next point to head even if head could be NULL
    *head = newNode;
 }
 

@@ -1,5 +1,9 @@
 
 #include "AlgorithmLinkedList.h"
+#include "AlgorithmStack.h"
+#include "AlgorithmQueue.h"
+#include "AlgorithmTree.h"
+#include "AlgorithmSearching.h"
 #include "AlgorithmSorting.h"
 #include "CppExamples.h"
 #include "LCChapter2.h"
@@ -30,10 +34,14 @@ void doLinkedListExample1()
    linkedList.doLinkedListExample1();
 }
 
-void doMergeSort()
+void doSorting()
 {
-   MergeSort mergeSort;
-   mergeSort.doMergeSort();
+   Sorting sorting;
+   sorting.doMergeSort();
+   sorting.doQuickSort();
+   sorting.doBubbleSort();
+   sorting.doSelectionSort();
+   sorting.doInsertionSort();
 }
 
 void doTestSizeOfNoneClass()
@@ -52,9 +60,15 @@ void doCppExample1()
    derived->func2();
    derived->func3();
    derived->func4();
+
+   Base* d2 = new Derived2();
+   //d2->func1(1); // this line won't compile
+   d2->func3();
+
+   Derived2* d2obj = new Derived2();
+   d2obj->func1(1);
+   d2obj->func3();
 }
-
-
 
 void foo(string msg)
 {
@@ -97,6 +111,12 @@ int main()
     //doMergeSort();
     doCppExample1();
     //doTestSizeOfNoneClass();
+
+   Searching::doBinarySearch();
+   doSorting();
+   TestStack();
+   TestQueue();
+   TestBinaryTree();
 
    ::system("pause");
 

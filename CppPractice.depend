@@ -28,7 +28,7 @@
 	"CppExamples.h"
 	<iostream>
 
-1418796767 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
+1439590063 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
 	<iostream>
 	"AlgorithmLinkedList.h"
 
@@ -38,21 +38,25 @@
 
 1435177932 c:\users\emma\documents\github\cpppractice\algorithmbase.h
 
-1418796767 source:c:\users\emma\documents\github\cpppractice\algorithmsorting.cpp
+1439760109 source:c:\users\emma\documents\github\cpppractice\algorithmsorting.cpp
 	<iostream>
 	<conio.h>
 	"AlgorithmSorting.h"
+	"Common.h"
+	<deque>
+	<climits>
+	<vector>
 
-1418796603 c:\users\emma\documents\github\cpppractice\algorithmsorting.h
+1439760109 c:\users\emma\documents\github\cpppractice\algorithmsorting.h
 	"AlgorithmBase.h"
 
-1418796603 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
+1437545595 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
 	"CppExamples.h"
 	<iostream>
 
-1435623150 c:\users\emma\documents\github\cpppractice\cppexamples.h
+1437545595 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1435623202 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1439710263 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmSorting.h"
 	"CppExamples.h"
@@ -80,9 +84,10 @@
 1432874404 c:\users\emma\documents\github\cpppractice\lc026_211removeduplicatesfromsortedarray.h
 	"Common.h"
 
-1435730271 c:\users\emma\documents\github\cpppractice\common.h
+1439760227 c:\users\emma\documents\github\cpppractice\common.h
 	<iostream>
 	<vector>
+	"AlgorithmBase.h"
 
 1434655981 c:\users\emma\documents\github\cpppractice\lc211removeduplicatesfromsortedarray026.h
 	"Common.h"
@@ -119,7 +124,7 @@
 	<stack>
 	<unordered_map>
 
-1435730925 c:\users\emma\documents\github\cpppractice\lcchapter2.h
+1435818182 c:\users\emma\documents\github\cpppractice\lcchapter2.h
 	"LC020101RemoveDuplicatesFromSortedArray026.h"
 	"LC020102RemoveDuplicatesFromSortedArrayII080.h"
 	"LC020103SearchInRotatedSortedArray033.h"
@@ -134,6 +139,8 @@
 	"LC020112NextPermutation.h"
 	"LC020113PermutationSequence.h"
 	"LC020114ValidSudoku.h"
+	"LC020115TrappingRainWater.h"
+	"LC020116RotatImage.h"
 	"LC020201AddTwoNumbers.h"
 	"LC020207RemoveNthNodeFromEndOfList.h"
 	"LC020211LinkedListCycle.h"
@@ -154,8 +161,9 @@
 	<stack>
 	<unordered_map>
 
-1435730925 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+1439710987 c:\users\emma\documents\github\cpppractice\lcchapter3.h
 	"LC0303StringToIntegeratoi008.h"
+	"LC0301ValidPalindrome.h"
 
 1435537399 c:\users\emma\documents\github\cpppractice\lcchapter4.h
 
@@ -346,4 +354,62 @@
 	<algorithm>
 	<vector>
 	<stack>
+
+1435816928 c:\users\emma\documents\github\cpppractice\lc020115trappingrainwater.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1435818182 c:\users\emma\documents\github\cpppractice\lc020116rotatimage.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1439711139 c:\users\emma\documents\github\cpppractice\lc0301validpalindrome.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1439759902 source:c:\users\emma\documents\github\cpppractice\algorithmqueue.cpp
+	<iostream>
+	"AlgorithmQueue.h"
+
+1439760109 c:\users\emma\documents\github\cpppractice\algorithmqueue.h
+	"AlgorithmBase.h"
+	<vector>
+
+1439760134 source:c:\users\emma\documents\github\cpppractice\algorithmsearching.cpp
+	<iostream>
+	"Common.h"
+	"AlgorithmSearching.h"
+
+1439760109 c:\users\emma\documents\github\cpppractice\algorithmsearching.h
+	"AlgorithmBase.h"
+	<vector>
+
+1439760109 source:c:\users\emma\documents\github\cpppractice\algorithmstack.cpp
+	<iostream>
+	"AlgorithmStack.h"
+
+1439760109 c:\users\emma\documents\github\cpppractice\algorithmstack.h
+	"AlgorithmBase.h"
+	<vector>
+
+1439760326 source:c:\users\emma\documents\github\cpppractice\algorithmtree.cpp
+	<iostream>
+	"AlgorithmTree.h"
+	<climits>
+	<deque>
+
+1439760109 c:\users\emma\documents\github\cpppractice\algorithmtree.h
+	"AlgorithmBase.h"
+	<vector>
 

@@ -36,3 +36,13 @@ void Derived::func3()
 {
    cout << "This is Derived::func3()" << endl;
 }
+
+void Derived2::func1(int i)
+{
+   cout << "This is Derived2::func1(int)" << endl;
+}
+
+void Derived2::func3()
+{
+   cout << "This is Derived2::func3()" << endl;
+}

@@ -3,8 +3,9 @@
 
 #include <iostream>
 #include <vector>
+#include "AlgorithmBase.h"
 
-void PrintArray(int* arr, int n)
+static void PrintArray(int* arr, int n)
 {
    for (int i = 0; i < n; i++)
    {
@@ -20,7 +21,7 @@ void PrintArray(int* arr, int n)
    std::cout << "\n";
 }
 
-void PrintVector(std::vector<int> vi)
+static void PrintVector(std::vector<int> vi)
 {
    for(auto iter = vi.cbegin(); iter != vi.cend(); ++iter)
    {
@@ -49,7 +50,7 @@ void PrintAnything(std::vector<X> vx)
    }
 }
 
-void PrintLinkedList(Node* l)
+static void PrintLinkedList(Node* l)
 {
    if (l == NULL)
       std::cout<< "Empty list!!\n";
