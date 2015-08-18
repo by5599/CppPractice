@@ -30,30 +30,29 @@
 
 /************
 [Easy]
-Time Complexity O(n), Space Complexity O(1)
+Time Complexity O(LogN)
+Space Complexity O(1)
 To remember:
-1. Skip the leading spaces
-2. Find the sign
-3. Calculate but consider the max numbers
+1.
 ************/
 
 class Solution1501
 {
 public:
    static int reverse(int x) {
-      int y=0;
-      int n;
+      int value = 0;
+      int moduleValue;
       while( x != 0){
-         n = x%10;
+         moduleValue = x % 10;
          //Checking the over/underflow.
          //Actually, it should be y>(INT_MAX-n)/10, but n/10 is 0, so omit it.
-         if (y > INT_MAX/10 || y < INT_MIN/10){
+         if (value > INT_MAX/10 || value < INT_MIN/10){
             return 0;
          }
-         y = y*10 + n;
+         value = value * 10 + moduleValue;
          x /= 10;
       }
-      return y;
+      return value;
    }
 };
 

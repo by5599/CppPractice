@@ -56,8 +56,12 @@
 
 1437545595 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1439710263 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1439760394 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
+	"AlgorithmStack.h"
+	"AlgorithmQueue.h"
+	"AlgorithmTree.h"
+	"AlgorithmSearching.h"
 	"AlgorithmSorting.h"
 	"CppExamples.h"
 	"LCChapter2.h"
@@ -161,9 +165,11 @@
 	<stack>
 	<unordered_map>
 
-1439710987 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+1439938588 c:\users\emma\documents\github\cpppractice\lcchapter3.h
 	"LC0303StringToIntegeratoi008.h"
 	"LC0301ValidPalindrome.h"
+	"LC0310IntegerToRoman.h"
+	"LC0311RomanToInteger.h"
 
 1435537399 c:\users\emma\documents\github\cpppractice\lcchapter4.h
 
@@ -189,8 +195,10 @@
 
 1435537399 c:\users\emma\documents\github\cpppractice\lcchapter14.h
 
-1434768399 c:\users\emma\documents\github\cpppractice\lcchapter15.h
+1439936260 c:\users\emma\documents\github\cpppractice\lcchapter15.h
 	"LC1501ReverseInteger.h"
+	"LC1512ZigZagConversion.h"
+	"LC1502PalindromeNumber.h"
 
 1434661246 c:\users\emma\documents\github\cpppractice\lcreversewordsinastring.h
 	"Common.h"
@@ -200,7 +208,7 @@
 	<unordered_map>
 	<string>
 
-1434753935 c:\users\emma\documents\github\cpppractice\lc1501reverseinteger.h
+1439924228 c:\users\emma\documents\github\cpppractice\lc1501reverseinteger.h
 	"Common.h"
 	<string.h>
 	<limits.h>
@@ -343,7 +351,7 @@
 	<stack>
 	<unordered_map>
 
-1434655981 c:\users\emma\documents\github\cpppractice\lc0303stringtointegeratoi008.h
+1439936260 c:\users\emma\documents\github\cpppractice\lc0303stringtointegeratoi008.h
 	"Common.h"
 	<string.h>
 	<limits.h>
@@ -412,4 +420,31 @@
 1439760109 c:\users\emma\documents\github\cpppractice\algorithmtree.h
 	"AlgorithmBase.h"
 	<vector>
+
+1439923580 c:\users\emma\documents\github\cpppractice\lc1512zigzagconversion.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1439936260 c:\users\emma\documents\github\cpppractice\lc1502palindromenumber.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1439938607 c:\users\emma\documents\github\cpppractice\lc0310integertoroman.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1439938588 c:\users\emma\documents\github\cpppractice\lc0311romantointeger.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
 

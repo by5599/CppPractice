@@ -35,8 +35,16 @@
 		<Unit filename="AlgorithmBase.h" />
 		<Unit filename="AlgorithmLinkedList.cpp" />
 		<Unit filename="AlgorithmLinkedList.h" />
+		<Unit filename="AlgorithmQueue.cpp" />
+		<Unit filename="AlgorithmQueue.h" />
+		<Unit filename="AlgorithmSearching.cpp" />
+		<Unit filename="AlgorithmSearching.h" />
 		<Unit filename="AlgorithmSorting.cpp" />
 		<Unit filename="AlgorithmSorting.h" />
+		<Unit filename="AlgorithmStack.cpp" />
+		<Unit filename="AlgorithmStack.h" />
+		<Unit filename="AlgorithmTree.cpp" />
+		<Unit filename="AlgorithmTree.h" />
 		<Unit filename="Common.h" />
 		<Unit filename="CppExamples.cpp" />
 		<Unit filename="CppExamples.h" />
@@ -59,6 +67,7 @@
 		<Unit filename="LC020201AddTwoNumbers.h" />
 		<Unit filename="LC020207RemoveNthNodeFromEndOfList.h" />
 		<Unit filename="LC020211LinkedListCycle.h" />
+		<Unit filename="LC0301ValidPalindrome.h" />
 		<Unit filename="LC0303StringToIntegeratoi008.h" />
 		<Unit filename="LC050101BinaryTreePreorderTraversal.h" />
 		<Unit filename="LC0602MergeTwoSortedList.h" />

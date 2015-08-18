@@ -40,7 +40,8 @@
 
 /************
 [Easy]
-Time Complexity O(n), Space Complexity O(1)
+Time Complexity O(n)
+Space Complexity O(1)
 To remember:
 1. Skip the leading spaces
 2. Find the sign
