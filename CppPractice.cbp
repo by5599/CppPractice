@@ -69,10 +69,14 @@
 		<Unit filename="LC020211LinkedListCycle.h" />
 		<Unit filename="LC0301ValidPalindrome.h" />
 		<Unit filename="LC0303StringToIntegeratoi008.h" />
+		<Unit filename="LC0310IntegerToRoman.h" />
+		<Unit filename="LC0311RomanToInteger.h" />
 		<Unit filename="LC050101BinaryTreePreorderTraversal.h" />
 		<Unit filename="LC0602MergeTwoSortedList.h" />
 		<Unit filename="LC1102Sqrt.h" />
 		<Unit filename="LC1501ReverseInteger.h" />
+		<Unit filename="LC1502PalindromeNumber.h" />
+		<Unit filename="LC1512ZigZagConversion.h" />
 		<Unit filename="LCChapter10.h" />
 		<Unit filename="LCChapter11.h" />
 		<Unit filename="LCChapter12.h" />

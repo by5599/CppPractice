@@ -79,6 +79,21 @@ void bar(string msg)
 {
     cout << "thread2 says: " << msg;
 }
+void doTestPointer()
+{
+short s;
+short *ps = &s;
+char c;
+char *pc = &c;
+printf("Content of ps before: %d %p %p\n",ps,ps,&ps);
+ps = ps + 1;
+printf("Content of ps after: %d %p %p\n",ps,ps,&ps);
+printf("Content of pc before: %d %p %p\n",pc,pc,&pc);
+pc = pc + 1;
+printf("Content of pc after: %d %p %p\n",pc,pc,&pc);
+printf("sizeof ps is: %d\n", sizeof(*ps));
+printf("sizeof pc is: %d\n", sizeof(*pc));
+}
 
 void print(const int ia[10])
 {
@@ -109,14 +124,15 @@ int main()
     //std::cout << i << " " << ri << std::endl;
     //doLinkedListExample1();
     //doMergeSort();
-    doCppExample1();
+    //doCppExample1();
     //doTestSizeOfNoneClass();
 
-   Searching::doBinarySearch();
-   doSorting();
-   TestStack();
-   TestQueue();
-   TestBinaryTree();
+   //Searching::doBinarySearch();
+   //doSorting();
+   //TestStack();
+   //TestQueue();
+   //TestBinaryTree();
+   doTestPointer();
 
    ::system("pause");
 

@@ -36,7 +36,8 @@
 	"AlgorithmBase.h"
 	<vector>
 
-1435177932 c:\users\emma\documents\github\cpppractice\algorithmbase.h
+1440283828 c:\users\emma\documents\github\cpppractice\algorithmbase.h
+	<cstdlib>
 
 1439760109 source:c:\users\emma\documents\github\cpppractice\algorithmsorting.cpp
 	<iostream>
@@ -56,7 +57,7 @@
 
 1437545595 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1439760394 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1440053043 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmStack.h"
 	"AlgorithmQueue.h"
@@ -128,7 +129,7 @@
 	<stack>
 	<unordered_map>
 
-1435818182 c:\users\emma\documents\github\cpppractice\lcchapter2.h
+1440263846 c:\users\emma\documents\github\cpppractice\lcchapter2.h
 	"LC020101RemoveDuplicatesFromSortedArray026.h"
 	"LC020102RemoveDuplicatesFromSortedArrayII080.h"
 	"LC020103SearchInRotatedSortedArray033.h"
@@ -146,9 +147,12 @@
 	"LC020115TrappingRainWater.h"
 	"LC020116RotatImage.h"
 	"LC020201AddTwoNumbers.h"
+	"LC020204RemoveDuplicatesFromSortedList.h"
 	"LC020207RemoveNthNodeFromEndOfList.h"
 	"LC020211LinkedListCycle.h"
 	"LC1102Sqrt.h"
+	"LC020117PlusOne.h"
+	"LC020118ClimbingStairs.h"
 	"LCReverseLinkedList.h"
 
 1434655981 c:\users\emma\documents\github\cpppractice\lc217twosum.h
@@ -165,37 +169,45 @@
 	<stack>
 	<unordered_map>
 
-1439938588 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+1440258301 c:\users\emma\documents\github\cpppractice\lcchapter3.h
 	"LC0303StringToIntegeratoi008.h"
 	"LC0301ValidPalindrome.h"
+	"LC0302strStr.h"
+	"LC0304AddBinary.h"
+	"LC0308LongestCommonPrefix.h"
 	"LC0310IntegerToRoman.h"
 	"LC0311RomanToInteger.h"
+	"LC0312CountAndSay.h"
+	"LC0315LengthOfLastWord.h"
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter4.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter4.h
+	"LC040101ValidParentheses.h"
 
-1435730925 c:\users\emma\documents\github\cpppractice\lcchapter5.h
+1440283752 c:\users\emma\documents\github\cpppractice\lcchapter5.h
 	"LC050101BinaryTreePreorderTraversal.h"
+	"LC050108SameTree.h"
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter6.h
+1440282433 c:\users\emma\documents\github\cpppractice\lcchapter6.h
+	"LC0601MergeSortedArray.h"
 	"LC0602MergeTwoSortedList.h"
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter7.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter7.h
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter8.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter8.h
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter9.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter9.h
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter10.h
 
-1434768399 c:\users\emma\documents\github\cpppractice\lcchapter11.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter11.h
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter12.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter12.h
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter13.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter13.h
 
-1435537399 c:\users\emma\documents\github\cpppractice\lcchapter14.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter14.h
 
-1439936260 c:\users\emma\documents\github\cpppractice\lcchapter15.h
+1440141540 c:\users\emma\documents\github\cpppractice\lcchapter15.h
 	"LC1501ReverseInteger.h"
 	"LC1512ZigZagConversion.h"
 	"LC1502PalindromeNumber.h"
@@ -214,7 +226,7 @@
 	<limits.h>
 	<stdio.h>
 
-1435539817 c:\users\emma\documents\github\cpppractice\lc020207removenthnodefromendoflist.h
+1440140071 c:\users\emma\documents\github\cpppractice\lc020207removenthnodefromendoflist.h
 	"Common.h"
 	<algorithm>
 	<vector>
@@ -257,7 +269,7 @@
 	<stack>
 	<unordered_map>
 
-1435538650 c:\users\emma\documents\github\cpppractice\lc0602mergetwosortedlist.h
+1440193895 c:\users\emma\documents\github\cpppractice\lc0602mergetwosortedlist.h
 	"Common.h"
 	"AlgorithmBase.h"
 	"AlgorithmLinkedList.h"
@@ -282,7 +294,7 @@
 	<unordered_map>
 	<limits.h>
 
-1435707886 c:\users\emma\documents\github\cpppractice\lc020111removeelement.h
+1440208403 c:\users\emma\documents\github\cpppractice\lc020111removeelement.h
 	"Common.h"
 	<algorithm>
 	<vector>
@@ -306,7 +318,7 @@
 	<unordered_map>
 	<limits.h>
 
-1435729838 c:\users\emma\documents\github\cpppractice\lc020114validsudoku.h
+1440211974 c:\users\emma\documents\github\cpppractice\lc020114validsudoku.h
 	"Common.h"
 	<algorithm>
 	<vector>
@@ -314,7 +326,7 @@
 	<unordered_map>
 	<limits.h>
 
-1434655981 c:\users\emma\documents\github\cpppractice\lc020101removeduplicatesfromsortedarray026.h
+1440207217 c:\users\emma\documents\github\cpppractice\lc020101removeduplicatesfromsortedarray026.h
 	"Common.h"
 
 1434655981 c:\users\emma\documents\github\cpppractice\lc020102removeduplicatesfromsortedarrayii080.h
@@ -357,8 +369,9 @@
 	<limits.h>
 	<stdio.h>
 
-1434655981 c:\users\emma\documents\github\cpppractice\lc050101binarytreepreordertraversal.h
+1440283883 c:\users\emma\documents\github\cpppractice\lc050101binarytreepreordertraversal.h
 	"Common.h"
+	"AlgorithmBase.h"
 	<algorithm>
 	<vector>
 	<stack>
@@ -447,4 +460,85 @@
 	<string.h>
 	<limits.h>
 	<stdio.h>
+
+1440139564 c:\users\emma\documents\github\cpppractice\lc0308longestcommonprefix.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1440141228 c:\users\emma\documents\github\cpppractice\lc040101validparentheses.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<stack>
+
+1440210495 c:\users\emma\documents\github\cpppractice\lc0302strstr.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1440212270 c:\users\emma\documents\github\cpppractice\lc0312countandsay.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+
+1440213272 c:\users\emma\documents\github\cpppractice\lc0315lengthoflastword.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+	<ctype.h>
+
+1440214540 c:\users\emma\documents\github\cpppractice\lc020117plusone.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1440258301 c:\users\emma\documents\github\cpppractice\lc0304addbinary.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1440259298 c:\users\emma\documents\github\cpppractice\lc020118climbingstairs.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1440263990 c:\users\emma\documents\github\cpppractice\lc020204removeduplicatesfromsortedlist.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1440282392 c:\users\emma\documents\github\cpppractice\lc0601mergesortedarray.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440283942 c:\users\emma\documents\github\cpppractice\lc050108sametree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
 

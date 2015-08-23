@@ -32,8 +32,9 @@
 
 
 /************
-[Medium]
-Time Complexity O(n), Space Complexity O(n)
+[Easy]
+Time Complexity O(N^2)
+Space Complexity O(1)
 To remember:
 1.
 2.

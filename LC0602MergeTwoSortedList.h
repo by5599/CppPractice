@@ -21,12 +21,11 @@
 
 
 /************
-[Medium]
-Time Complexity O(n), Space Complexity O(n)
+[Easy]
+Time Complexity O(min(m,n))
+Space Complexity O(1)
 To remember:
-1. Use a map
-2. Extend the finding and set the flag
-3.
+1.
 ************/
 
 class Solution0602

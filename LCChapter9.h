@@ -3,6 +3,7 @@
 
 void doChapter9()
 {
+   std::cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Chapter 9\n";
 
 }
 #endif

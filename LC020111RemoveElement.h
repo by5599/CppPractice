@@ -20,8 +20,9 @@
 
 
 /************
-[Medium]
-Time Complexity O(n), Space Complexity O(n)
+[Easy]
+Time Complexity O(n)
+Space Complexity O(1)
 To remember:
 1.
 2.
@@ -35,7 +36,11 @@ public:
       int index = 0;
       for (int i = 0; i < n; ++i) {
          if (A[i] != elem) {
-            A[index++] = A[i];
+            if (i != index)
+            {
+               A[index] = A[i];
+            }
+            ++index;
          }
       }
       return index;

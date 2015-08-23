@@ -2,6 +2,7 @@
 #define LC511_BINARY_TREE_PREORDER_TRAVERSAL_H
 
 #include "Common.h"
+#include "AlgorithmBase.h"
 #include <algorithm>
 #include <vector>
 #include <stack>
@@ -34,38 +35,6 @@ To remember:
 2.
 3.
 ************/
-
-struct TreeNode {
-   int val;
-   TreeNode *left;
-   TreeNode *right;
-   TreeNode(int x) : val(x), left(nullptr), right(nullptr) { }
-};
-
-TreeNode* createTree(int a[], int n)
-{
-    if (n<=0) return NULL;
-
-    TreeNode **tree = new TreeNode*[n];
-
-    for(int i=0; i<n; i++) {
-        if (a[i]==0 ){
-            tree[i] = NULL;
-            continue;
-        }
-        tree[i] = new TreeNode(a[i]);
-    }
-    int pos=1;
-    for(int i=0; i<n && pos<n; i++) {
-        if (tree[i]){
-            tree[i]->left = tree[pos++];
-            if (pos<n){
-                tree[i]->right = tree[pos++];
-            }
-        }
-    }
-    return tree[0];
-}
 
 class Solution511
 {

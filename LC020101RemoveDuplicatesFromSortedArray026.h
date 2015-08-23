@@ -20,7 +20,8 @@
 
 /************
 [Easy]
-Time Complexity O(n), Space Complexity O(1)
+Time Complexity O(n)
+Space Complexity O(1)
 To remember:
 1. Set the initial left pointer to 0 and the index(right pointer) to 1
 2. If the contents of the lp and rp is different:

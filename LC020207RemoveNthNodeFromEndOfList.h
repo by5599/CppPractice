@@ -27,22 +27,29 @@
 
 
 /************
-[Hard]
-Time Complexity O(n), Space Complexity O(n)
+[Easy]
+Time Complexity O(N)
+Space Complexity O(1)
 To remember:
-1. Use a map
-2. Extend the finding and set the flag
-3.
+1.
 ************/
 
 class Solution020207
 {
 public:
    static Node *removeNthFromEnd(Node *head, int n) {
+      if (head==NULL || n<=0){
+         return NULL;
+      }
+
       Node *headPtr = head;
       Node *p = head, *q = head;
       for (int i = 0; i < n; i++)
+      {
+         if (q == NULL) return NULL;
          q = q->next;
+      }
+
       while(q->next) {
          p = p->next;
          q = q->next;

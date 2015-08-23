@@ -19,13 +19,17 @@
 #include "LC020116RotatImage.h"
 
 #include "LC020201AddTwoNumbers.h"
+#include "LC020204RemoveDuplicatesFromSortedList.h"
 #include "LC020207RemoveNthNodeFromEndOfList.h"
 #include "LC020211LinkedListCycle.h"
 #include "LC1102Sqrt.h"
+#include "LC020117PlusOne.h"
+#include "LC020118ClimbingStairs.h"
 #include "LCReverseLinkedList.h"
 
 void doChapter2()
 {
+   std::cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Chapter 2\n";
    doLC211RemoveDuplicates();
    doLC212RemoveDuplicates2();
    doLC213Search();
@@ -42,8 +46,11 @@ void doChapter2()
    doLC020114ValidSudoku();
    doLC020115TrappingRainWater();
    doLC020116RotateImage();
+   doLC020117PlusOne();
+   doLC020118ClimbingStairs();
 
    doLC020201AddTwoNumbers();
+   doLC020204RemoveDuplicatesFromeSortedList();
    doLC020207RemoveNthNodeFromEndOfList();
    doLC020211LinkedListCycle();
    doLCReverseLinkedList();

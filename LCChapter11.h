@@ -3,6 +3,7 @@
 
 void doChapter11()
 {
+   std::cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Chapter 11\n";
    doLC1102Sqrt();
 
 }
