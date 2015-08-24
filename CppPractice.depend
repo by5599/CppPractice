@@ -36,8 +36,11 @@
 	"AlgorithmBase.h"
 	<vector>
 
-1440283828 c:\users\emma\documents\github\cpppractice\algorithmbase.h
+1440371636 c:\users\emma\documents\github\cpppractice\algorithmbase.h
 	<cstdlib>
+	<stdio.h>
+	<queue>
+	<iostream>
 
 1439760109 source:c:\users\emma\documents\github\cpppractice\algorithmsorting.cpp
 	<iostream>
@@ -183,9 +186,16 @@
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter4.h
 	"LC040101ValidParentheses.h"
 
-1440283752 c:\users\emma\documents\github\cpppractice\lcchapter5.h
+1440376526 c:\users\emma\documents\github\cpppractice\lcchapter5.h
 	"LC050101BinaryTreePreorderTraversal.h"
+	"LC050104BinaryTreeLevelOrderTraversal.h"
+	"LC050105BinaryTreeLevelOrderTraversalII.h"
 	"LC050108SameTree.h"
+	"LC050109SymmetricTree.h"
+	"LC050110BalancedBinaryTree.h"
+	"LC050401MinimumDepthOfBinaryTree.h"
+	"LC050402MaximumDepthOfBinaryTree.h"
+	"LC050403PathSum.h"
 
 1440282433 c:\users\emma\documents\github\cpppractice\lcchapter6.h
 	"LC0601MergeSortedArray.h"
@@ -207,10 +217,11 @@
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter14.h
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter15.h
+1440378027 c:\users\emma\documents\github\cpppractice\lcchapter15.h
 	"LC1501ReverseInteger.h"
 	"LC1512ZigZagConversion.h"
 	"LC1502PalindromeNumber.h"
+	"LC1508PascalTriangle.h"
 
 1434661246 c:\users\emma\documents\github\cpppractice\lcreversewordsinastring.h
 	"Common.h"
@@ -424,7 +435,7 @@
 	"AlgorithmBase.h"
 	<vector>
 
-1439760326 source:c:\users\emma\documents\github\cpppractice\algorithmtree.cpp
+1440371943 source:c:\users\emma\documents\github\cpppractice\algorithmtree.cpp
 	<iostream>
 	"AlgorithmTree.h"
 	<climits>
@@ -541,4 +552,69 @@
 	<vector>
 	<stack>
 	<queue>
+
+1440369811 c:\users\emma\documents\github\cpppractice\lc050109symmetrictree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+	<stdlib.h>
+
+1440371561 c:\users\emma\documents\github\cpppractice\lc050104binarytreelevelordertraversal.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+	<stdlib.h>
+
+1440372872 c:\users\emma\documents\github\cpppractice\lc050402maximumdepthofbinarytree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440373301 c:\users\emma\documents\github\cpppractice\lc050105binarytreelevelordertraversalii.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+	<stdlib.h>
+
+1440374129 c:\users\emma\documents\github\cpppractice\lc050110balancedbinarytree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440374664 c:\users\emma\documents\github\cpppractice\lc050401minimumdepthofbinarytree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440376968 c:\users\emma\documents\github\cpppractice\lc050403pathsum.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440378044 c:\users\emma\documents\github\cpppractice\lc1508pascaltriangle.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
 

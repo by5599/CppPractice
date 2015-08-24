@@ -3,6 +3,11 @@
 #define ALGORITHMS_BASE_H
 
 #include <cstdlib>
+#include <stdio.h>
+#include <queue>
+#include <iostream>
+
+using namespace std;
 
 struct Node
 {
@@ -42,6 +47,47 @@ static TreeNode* createTree(int a[], int n)
         }
     }
     return tree[0];
+}
+
+static void printTree(TreeNode *root)
+{
+    if (root == NULL){
+        printf("# ");
+        return;
+    }
+    printf("%d ", root->val );
+
+    printTree(root->left);
+    printTree(root->right);
+}
+
+static void printTree_level_order(TreeNode *root)
+{
+    queue<TreeNode*> q;
+    q.push(root);
+    while (q.size()>0){
+        TreeNode* n = q.front();
+        q.pop();
+        if (n==NULL){
+            cout << "# ";
+            continue;
+        }
+        cout << n->val << " ";
+        q.push(n->left);
+        q.push(n->right);
+    }
+    cout << endl;
+}
+
+static int printMatrix(vector< vector<int> > &vv)
+{
+    for(int i=0; i<vv.size(); i++) {
+        cout << "[";
+        for(int j=0; j<vv[i].size(); j++) {
+            cout << " " << vv[i][j];
+        }
+        cout << "]" << endl;;
+    }
 }
 
 #endif

@@ -390,19 +390,20 @@ Tree *createMinimalBST(char arr[], int size)
 /* Breadth first traversal using queue */
 void BreadthFirstTraversal(Tree *root)
 {
-	if (root == NULL) return;
-	deque <Tree *> queue;
+	if (root == NULL)
+   {
+      return;
+   }
+	deque<Tree *> queue;
 	queue.push_back(root);
 
 	while (!queue.empty()) {
-	    Tree *p = queue.front();
-	    cout << p->data << " ";
-	    queue.pop_front();
+	   Tree *p = queue.front();
+	   cout << p->data << " ";
+	   queue.pop_front();
 
-	    if (p->left != NULL)
-		queue.push_back(p->left);
-	    if (p->right != NULL)
-		queue.push_back(p->right);
+	   if (p->left != NULL) { queue.push_back(p->left);}
+      if (p->right != NULL) { queue.push_back(p->right); }
 	}
 	cout << endl;
 }

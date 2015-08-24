@@ -4,6 +4,7 @@
 #include "LC1501ReverseInteger.h"
 #include "LC1512ZigZagConversion.h"
 #include "LC1502PalindromeNumber.h"
+#include "LC1508PascalTriangle.h"
 
 void doChapter15()
 {
@@ -11,6 +12,7 @@ void doChapter15()
    doLC1501ReverseInteger();
    doLC1502PalindromeNumber();
    doLC1512ZigzagConversion();
+   doLC1508PascalTriangle();
 
 }
 #endif
