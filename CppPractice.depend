@@ -60,7 +60,7 @@
 
 1437545595 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1440053043 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1440393640 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmStack.h"
 	"AlgorithmQueue.h"
@@ -82,6 +82,7 @@
 	"LCChapter13.h"
 	"LCChapter14.h"
 	"LCChapter15.h"
+	"LCChapterOthers.h"
 	"LCReverseWordsInAString.h"
 	<thread>
 	<windows.h>
@@ -217,11 +218,12 @@
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter14.h
 
-1440378027 c:\users\emma\documents\github\cpppractice\lcchapter15.h
+1440378954 c:\users\emma\documents\github\cpppractice\lcchapter15.h
 	"LC1501ReverseInteger.h"
 	"LC1512ZigZagConversion.h"
 	"LC1502PalindromeNumber.h"
 	"LC1508PascalTriangle.h"
+	"LC1509PascalTriangleII.h"
 
 1434661246 c:\users\emma\documents\github\cpppractice\lcreversewordsinastring.h
 	"Common.h"
@@ -403,7 +405,7 @@
 	<unordered_map>
 	<limits.h>
 
-1439711139 c:\users\emma\documents\github\cpppractice\lc0301validpalindrome.h
+1440379056 c:\users\emma\documents\github\cpppractice\lc0301validpalindrome.h
 	"Common.h"
 	<algorithm>
 	<vector>
@@ -612,9 +614,35 @@
 	<stack>
 	<queue>
 
-1440378044 c:\users\emma\documents\github\cpppractice\lc1508pascaltriangle.h
+1440378954 c:\users\emma\documents\github\cpppractice\lc1508pascaltriangle.h
 	"Common.h"
 	<string.h>
 	<limits.h>
 	<stdio.h>
+
+1440378044 c:\users\emma\documents\github\cpppractice\lc1509pascaltriangleii.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1440396610 c:\users\emma\documents\github\cpppractice\lcchapterothers.h
+	"LCMinStack.h"
+	"LCIntersectionOfTwoLinkedList.h"
+
+1440393550 c:\users\emma\documents\github\cpppractice\lcminstack.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<unordered_map>
+	<string>
+
+1440396887 c:\users\emma\documents\github\cpppractice\lcintersectionoftwolinkedlist.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
 

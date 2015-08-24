@@ -5,6 +5,7 @@
 #include "LC1512ZigZagConversion.h"
 #include "LC1502PalindromeNumber.h"
 #include "LC1508PascalTriangle.h"
+#include "LC1509PascalTriangleII.h"
 
 void doChapter15()
 {
@@ -13,6 +14,7 @@ void doChapter15()
    doLC1502PalindromeNumber();
    doLC1512ZigzagConversion();
    doLC1508PascalTriangle();
+   doLC1509PascalTriangleII();
 
 }
 #endif

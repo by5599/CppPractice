@@ -38,6 +38,7 @@ class Solution0301
 public:
    static bool isPalindrome(std::string s) {
         s = removeNoise(s);
+        cout << s << "\n";
         for(int i=0; i<s.size()/2; i++){
             if (s[i]!= s[s.size()-i-1]){
                 return false;

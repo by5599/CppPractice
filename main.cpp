@@ -20,6 +20,7 @@
 #include "LCChapter13.h"
 #include "LCChapter14.h"
 #include "LCChapter15.h"
+#include "LCChapterOthers.h"
 #include "LCReverseWordsInAString.h"
 
 #include <thread>
@@ -116,6 +117,7 @@ int main()
    doChapter13();
    doChapter14();
    doChapter15();
+   doChapterOthers();
 
    doLCReverseString();
 

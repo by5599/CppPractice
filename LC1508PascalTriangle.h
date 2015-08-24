@@ -1,5 +1,5 @@
-#ifndef LC1508_H
-#define LC1508_H
+#ifndef LC1509_H
+#define LC1509_H
 
 #include "Common.h"
 #include <string.h>
@@ -8,18 +8,13 @@
 
 /**********************************************************************************
 *
-* Given numRows, generate the first numRows of Pascal's triangle.
+* Given an index k, return the kth row of the Pascal's triangle.
 *
-* For example, given numRows = 5,
-* Return
+* For example, given k = 3,
+* Return [1,3,3,1].
 *
-* [
-*      [1],
-*     [1,1],
-*    [1,2,1],
-*   [1,3,3,1],
-*  [1,4,6,4,1]
-* ]
+* Note:
+* Could you optimize your algorithm to use only O(k) extra space?
 *
 *
 **********************************************************************************/
@@ -32,59 +27,32 @@ To remember:
 1.
 ************/
 
-class Solution1508
+class Solution1509
 {
 public:
-   static vector<vector<int> > generate(int numRows)
-{
-    vector<vector<int> > pascalTriangle;
-    for (int i=0; i<numRows; i++){
-        vector<int> v;
-        if (i==0){
-            v.push_back(1);
-        } else {
-            v.push_back(1);
-            for(int j=0; j<pascalTriangle[i-1].size()-1; j++){
-                v.push_back(pascalTriangle[i-1][j] + pascalTriangle[i-1][j+1]);
-            }
-            v.push_back(1);
+   static vector<int> getRow(int rowIndex) {
+    vector<int> v(rowIndex+1, 0);
+    v[0]=1;
+
+    for (int i=0; i<rowIndex; i++){
+        for(int j=i+1; j>0; j--){
+           v[j] += v[j-1];
         }
-        pascalTriangle.push_back(v);
     }
-    return pascalTriangle;
+    return v;
+
 }
 
-static void printTriangle(vector< vector<int> > pt)
-{
-	cout << "[" << endl;
-    for(int i=0; i<pt.size(); i++){
-    	for(int space=(pt.size()-i-1); space>=0; space--){
-    		cout << " ";
-    	}
-        cout << "[";
-        for(int j=0; j<pt[i].size(); j++){
-            cout << pt[i][j];
-            if(j<pt[i].size()-1){
-            	cout << ",";
-            }
-        }
-        cout << "]";
-        if(i<pt.size()-1){
-        	cout << ",";
-        }
-        cout << endl;
-    }
-    cout << "]" << endl;
-}
 };
 
-void doLC1508PascalTriangle()
+void doLC1509PascalTriangleII()
 {
    std::cout << "---------------------------------\n";
-   std::cout << "Pascal Triangle\n";
-   int n = 5;
+   std::cout << "Pascal Triangle II\n";
+   int n = 3;
    std::cout << "The rows: " << n << "\n";
-   Solution1508::printTriangle(Solution1508::generate(n));
+   vector<int> res = Solution1509::getRow(n);
+   PrintVector(res);
 
 }
 
