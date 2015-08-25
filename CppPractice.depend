@@ -626,9 +626,17 @@
 	<limits.h>
 	<stdio.h>
 
-1440396610 c:\users\emma\documents\github\cpppractice\lcchapterothers.h
+1440475008 c:\users\emma\documents\github\cpppractice\lcchapterothers.h
 	"LCMinStack.h"
 	"LCIntersectionOfTwoLinkedList.h"
+	"LCCompareVersionNumbers.h"
+	"LCExcelSheetColumnTitle.h"
+	"LCExcelSheetColumnNumber.h"
+	"LCMajorityElement.h"
+	"LCTwoSumIII.h"
+	"LCRotateArray.h"
+	"LCReverseBits.h"
+	"LCNumberOf1Bits.h"
 
 1440393550 c:\users\emma\documents\github\cpppractice\lcminstack.h
 	"Common.h"
@@ -638,6 +646,78 @@
 	<string>
 
 1440396887 c:\users\emma\documents\github\cpppractice\lcintersectionoftwolinkedlist.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440397936 c:\users\emma\documents\github\cpppractice\lccompareversionnumbers.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440449395 c:\users\emma\documents\github\cpppractice\lcexcelsheetcolumntitle.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440457027 c:\users\emma\documents\github\cpppractice\lcmajorityelement.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440458038 c:\users\emma\documents\github\cpppractice\lctwosumiii.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440459301 c:\users\emma\documents\github\cpppractice\lcexcelsheetcolumnnumber.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440471362 c:\users\emma\documents\github\cpppractice\lcrotatearray.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440474093 c:\users\emma\documents\github\cpppractice\lcreversebits.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440475008 c:\users\emma\documents\github\cpppractice\lcnumberof1bits.h
 	"Common.h"
 	"AlgorithmBase.h"
 	"AlgorithmLinkedList.h"
