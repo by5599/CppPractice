@@ -133,7 +133,7 @@
 	<stack>
 	<unordered_map>
 
-1440263846 c:\users\emma\documents\github\cpppractice\lcchapter2.h
+1440556643 c:\users\emma\documents\github\cpppractice\lcchapter2.h
 	"LC020101RemoveDuplicatesFromSortedArray026.h"
 	"LC020102RemoveDuplicatesFromSortedArrayII080.h"
 	"LC020103SearchInRotatedSortedArray033.h"
@@ -153,6 +153,7 @@
 	"LC020201AddTwoNumbers.h"
 	"LC020204RemoveDuplicatesFromSortedList.h"
 	"LC020207RemoveNthNodeFromEndOfList.h"
+	"LC020208SwapNodesInPairs.h"
 	"LC020211LinkedListCycle.h"
 	"LC1102Sqrt.h"
 	"LC020117PlusOne.h"
@@ -173,11 +174,12 @@
 	<stack>
 	<unordered_map>
 
-1440258301 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+1440541331 c:\users\emma\documents\github\cpppractice\lcchapter3.h
 	"LC0303StringToIntegeratoi008.h"
 	"LC0301ValidPalindrome.h"
 	"LC0302strStr.h"
 	"LC0304AddBinary.h"
+	"LC0305LongestPalindromicSubstring.h"
 	"LC0308LongestCommonPrefix.h"
 	"LC0310IntegerToRoman.h"
 	"LC0311RomanToInteger.h"
@@ -202,28 +204,36 @@
 	"LC0601MergeSortedArray.h"
 	"LC0602MergeTwoSortedList.h"
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter7.h
+1440562934 c:\users\emma\documents\github\cpppractice\lcchapter7.h
+	"LC0701SearchForARange.h"
+	"LC0702SearchInsertPosition.h"
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter8.h
+1440545740 c:\users\emma\documents\github\cpppractice\lcchapter8.h
+	"LC0806LetterCombinationsOfAPhoneNumber.h"
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter9.h
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+1440565527 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+	"LC1007CombinationSum.h"
+	"LC1009GenerateParentheses.h"
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter11.h
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter12.h
+1440543891 c:\users\emma\documents\github\cpppractice\lcchapter12.h
+	"LC1205LongestSubstringWithoutRepeatCharacters.h"
+	"LC1206ContainerWithMostWater.h"
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter13.h
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter14.h
 
-1440378954 c:\users\emma\documents\github\cpppractice\lcchapter15.h
+1440560806 c:\users\emma\documents\github\cpppractice\lcchapter15.h
 	"LC1501ReverseInteger.h"
 	"LC1512ZigZagConversion.h"
 	"LC1502PalindromeNumber.h"
 	"LC1508PascalTriangle.h"
 	"LC1509PascalTriangleII.h"
+	"LC1513DivideTwoIntegers.h"
 
 1434661246 c:\users\emma\documents\github\cpppractice\lcreversewordsinastring.h
 	"Common.h"
@@ -369,7 +379,7 @@
 	<stack>
 	<unordered_map>
 
-1434657967 c:\users\emma\documents\github\cpppractice\lc020108threesum.h
+1440544484 c:\users\emma\documents\github\cpppractice\lc020108threesum.h
 	"Common.h"
 	<algorithm>
 	<vector>
@@ -721,6 +731,82 @@
 	"Common.h"
 	"AlgorithmBase.h"
 	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440479352 c:\users\emma\documents\github\cpppractice\lc1205longestsubstringwithoutrepeatcharacters.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440541331 c:\users\emma\documents\github\cpppractice\lc0305longestpalindromicsubstring.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1440543891 c:\users\emma\documents\github\cpppractice\lc1206containerwithmostwater.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440545806 c:\users\emma\documents\github\cpppractice\lc0806lettercombinationsofaphonenumber.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440547535 c:\users\emma\documents\github\cpppractice\lc1009generateparentheses.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440558592 c:\users\emma\documents\github\cpppractice\lc020208swapnodesinpairs.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+
+1440560806 c:\users\emma\documents\github\cpppractice\lc1513dividetwointegers.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440562517 c:\users\emma\documents\github\cpppractice\lc0701searchforarange.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440562934 c:\users\emma\documents\github\cpppractice\lc0702searchinsertposition.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440565548 c:\users\emma\documents\github\cpppractice\lc1007combinationsum.h
+	"Common.h"
 	<algorithm>
 	<vector>
 	<stack>

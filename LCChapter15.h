@@ -6,6 +6,7 @@
 #include "LC1502PalindromeNumber.h"
 #include "LC1508PascalTriangle.h"
 #include "LC1509PascalTriangleII.h"
+#include "LC1513DivideTwoIntegers.h"
 
 void doChapter15()
 {
@@ -15,6 +16,6 @@ void doChapter15()
    doLC1512ZigzagConversion();
    doLC1508PascalTriangle();
    doLC1509PascalTriangleII();
-
+   doLC1513DivideTwoIntegers();
 }
 #endif

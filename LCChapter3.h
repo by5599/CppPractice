@@ -5,6 +5,7 @@
 #include "LC0301ValidPalindrome.h"
 #include "LC0302strStr.h"
 #include "LC0304AddBinary.h"
+#include "LC0305LongestPalindromicSubstring.h"
 #include "LC0308LongestCommonPrefix.h"
 #include "LC0310IntegerToRoman.h"
 #include "LC0311RomanToInteger.h"
@@ -18,6 +19,7 @@ void doChapter3()
    doLC0301ValidPalindrome();
    doLC0302strStr();
    doLC0304AddBinary();
+   doLC0305LongestPalindromicSubstring();
    doLC0308LongestCommonPrefix();
    doLC0310IntegerToRoman();
    doLC0311RomanToInteger();
