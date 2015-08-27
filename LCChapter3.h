@@ -10,6 +10,8 @@
 #include "LC0310IntegerToRoman.h"
 #include "LC0311RomanToInteger.h"
 #include "LC0312CountAndSay.h"
+#include "LC0313Anagrams.h"
+#include "LC0314SimplifyPath.h"
 #include "LC0315LengthOfLastWord.h"
 
 void doChapter3()
@@ -24,6 +26,8 @@ void doChapter3()
    doLC0310IntegerToRoman();
    doLC0311RomanToInteger();
    doLC0312CountAndSay();
+   doLC0313Anagrams();
+   doLC0314SimplifyPath();
    doLC0315LengthOfLastWord();
 }
 

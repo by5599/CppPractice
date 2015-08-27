@@ -133,7 +133,7 @@
 	<stack>
 	<unordered_map>
 
-1440556643 c:\users\emma\documents\github\cpppractice\lcchapter2.h
+1440649950 c:\users\emma\documents\github\cpppractice\lcchapter2.h
 	"LC020101RemoveDuplicatesFromSortedArray026.h"
 	"LC020102RemoveDuplicatesFromSortedArrayII080.h"
 	"LC020103SearchInRotatedSortedArray033.h"
@@ -152,6 +152,7 @@
 	"LC020116RotatImage.h"
 	"LC020201AddTwoNumbers.h"
 	"LC020204RemoveDuplicatesFromSortedList.h"
+	"LC020206RotateList.h"
 	"LC020207RemoveNthNodeFromEndOfList.h"
 	"LC020208SwapNodesInPairs.h"
 	"LC020211LinkedListCycle.h"
@@ -174,7 +175,7 @@
 	<stack>
 	<unordered_map>
 
-1440541331 c:\users\emma\documents\github\cpppractice\lcchapter3.h
+1440654013 c:\users\emma\documents\github\cpppractice\lcchapter3.h
 	"LC0303StringToIntegeratoi008.h"
 	"LC0301ValidPalindrome.h"
 	"LC0302strStr.h"
@@ -184,6 +185,8 @@
 	"LC0310IntegerToRoman.h"
 	"LC0311RomanToInteger.h"
 	"LC0312CountAndSay.h"
+	"LC0313Anagrams.h"
+	"LC0314SimplifyPath.h"
 	"LC0315LengthOfLastWord.h"
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter4.h
@@ -204,26 +207,33 @@
 	"LC0601MergeSortedArray.h"
 	"LC0602MergeTwoSortedList.h"
 
-1440562934 c:\users\emma\documents\github\cpppractice\lcchapter7.h
+1440656065 c:\users\emma\documents\github\cpppractice\lcchapter7.h
 	"LC0701SearchForARange.h"
 	"LC0702SearchInsertPosition.h"
+	"LC0703SearchA2DMatrix.h"
 
-1440545740 c:\users\emma\documents\github\cpppractice\lcchapter8.h
+1440633071 c:\users\emma\documents\github\cpppractice\lcchapter8.h
+	"LC0803Permutations.h"
 	"LC0806LetterCombinationsOfAPhoneNumber.h"
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter9.h
 
-1440565527 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+1440651931 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+	"LC1002UniquePaths.h"
 	"LC1007CombinationSum.h"
 	"LC1009GenerateParentheses.h"
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter11.h
+1440647619 c:\users\emma\documents\github\cpppractice\lcchapter11.h
+	"LC1101Pow.h"
+	"LC1102Sqrt.h"
 
 1440543891 c:\users\emma\documents\github\cpppractice\lcchapter12.h
 	"LC1205LongestSubstringWithoutRepeatCharacters.h"
 	"LC1206ContainerWithMostWater.h"
 
-1440141540 c:\users\emma\documents\github\cpppractice\lcchapter13.h
+1440653015 c:\users\emma\documents\github\cpppractice\lcchapter13.h
+	"LC1302MaximumSubarray.h"
+	"LC1308MinimumPathSum.h"
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter14.h
 
@@ -811,4 +821,72 @@
 	<vector>
 	<stack>
 	<unordered_map>
+
+1440633071 c:\users\emma\documents\github\cpppractice\lc0803permutations.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1440646482 c:\users\emma\documents\github\cpppractice\lc0313anagrams.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+	<map>
+
+1440647619 c:\users\emma\documents\github\cpppractice\lc1101pow.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440648761 c:\users\emma\documents\github\cpppractice\lc1302maximumsubarray.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440649971 c:\users\emma\documents\github\cpppractice\lc020206rotatelist.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1440652037 c:\users\emma\documents\github\cpppractice\lc1002uniquepaths.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440653033 c:\users\emma\documents\github\cpppractice\lc1308minimumpathsum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1440654408 c:\users\emma\documents\github\cpppractice\lc0314simplifypath.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+	<map>
+
+1440656065 c:\users\emma\documents\github\cpppractice\lc0703searcha2dmatrix.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
 

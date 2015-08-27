@@ -20,6 +20,7 @@
 
 #include "LC020201AddTwoNumbers.h"
 #include "LC020204RemoveDuplicatesFromSortedList.h"
+#include "LC020206RotateList.h"
 #include "LC020207RemoveNthNodeFromEndOfList.h"
 #include "LC020208SwapNodesInPairs.h"
 #include "LC020211LinkedListCycle.h"
@@ -52,6 +53,7 @@ void doChapter2()
 
    doLC020201AddTwoNumbers();
    doLC020204RemoveDuplicatesFromeSortedList();
+   doLC020206RotateList();
    doLC020207RemoveNthNodeFromEndOfList();
    doLC020208SwapNodeInPairs();
    doLC020211LinkedListCycle();
