@@ -121,7 +121,9 @@ Node* LinkedList::reverse(Node** head)
    parent->next = NULL;
    while (child)
    {
+      // Point me->next to parent
       me->next = parent;
+      // Move forward for the pointers of parent, me and child
       parent = me;
       me = child;
       child = child->next;

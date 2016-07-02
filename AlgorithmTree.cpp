@@ -53,10 +53,10 @@ Tree* lookUp(struct Tree *node, char key)
 
 	if(node->data == key) return node;
 	else {
-	    if(node->data < key)
-		return lookUp(node->right, key) ;
-	    else
-		return lookUp(node->left, key);
+	   if(key < node->data)
+         return lookUp(node->left, key) ;
+      else
+         return lookUp(node->right, key);
 	}
 }
 
@@ -102,6 +102,7 @@ struct Tree* insertTreeNode(struct Tree *node, int data)
 	return node;
 }
 
+// Using in-order traversal
 void isBST(struct Tree *node)
 {
 	static int lastData = INT_MIN;
@@ -161,6 +162,7 @@ bool isBalanced(struct Tree *node)
 }
 
 /* Tree Minimum */
+// Return the minimum node in the tree
 Tree* minTree(struct Tree *node)
 {
 	if(node == NULL) return NULL;
@@ -170,6 +172,7 @@ Tree* minTree(struct Tree *node)
 }
 
 /* Tree Maximum */
+// Return the maximum node in the tree
 Tree* maxTree(struct Tree *node)
 {
 	while(node->right)
@@ -181,14 +184,16 @@ Tree* maxTree(struct Tree *node)
 Tree *succesorInOrder(struct Tree *node)
 {
 	/* if the node has right child, seccessor is Tree-Minimum */
-	if(node->right != NULL) return minTree(node->right);
+	if(node->right != NULL)
+      return minTree(node->right);
 
-	Tree *y = node->parent;
-	while(y != NULL && node == y->right) {
-	    node = y;
-	    y = y->parent;
+	Tree *p = node->parent;
+	// Go up to the tree until find one that is on the left of the parent node
+	while(p != NULL && node == p->right) {
+	    node = p;
+	    p = p->parent;
 	}
-	return y;
+	return p;
 }
 
 /* In Order Predecessor - a node which has the next lower key */
@@ -390,7 +395,7 @@ Tree *createMinimalBST(char arr[], int size)
 /* Breadth first traversal using queue */
 void BreadthFirstTraversal(Tree *root)
 {
-	if (root == NULL)
+   if (root == NULL)
    {
       return;
    }

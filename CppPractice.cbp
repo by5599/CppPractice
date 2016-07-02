@@ -78,6 +78,7 @@
 		<Unit filename="LC0310IntegerToRoman.h" />
 		<Unit filename="LC0311RomanToInteger.h" />
 		<Unit filename="LC0312CountAndSay.h" />
+		<Unit filename="LC0313Anagrams.h" />
 		<Unit filename="LC0315LengthOfLastWord.h" />
 		<Unit filename="LC040101ValidParentheses.h" />
 		<Unit filename="LC050101BinaryTreePreorderTraversal.h" />

@@ -101,8 +101,12 @@ void print(const int ia[10])
 for (size_t i = 0; i != 10; ++i)
 cout << ia[i] << endl;
 }
+
+#define IGNORE_LEETCODE 1
+
 int main()
 {
+#if (IGNORE_LEETCODE == 1)
    doChapter2();
    doChapter3();
    doChapter4();
@@ -120,11 +124,12 @@ int main()
    doChapterOthers();
 
    doLCReverseString();
+#endif
 
     int i, &ri = i;
     i = 5; ri = 10;
     //std::cout << i << " " << ri << std::endl;
-    //doLinkedListExample1();
+    doLinkedListExample1();
     //doMergeSort();
     //doCppExample1();
     //doTestSizeOfNoneClass();
@@ -133,9 +138,11 @@ int main()
    //doSorting();
    //TestStack();
    //TestQueue();
-   //TestBinaryTree();
+   TestBinaryTree();
    doTestPointer();
-
+   TestPointers();
+   TestDataTypesAndAlignments();
+   testConstness();
    ::system("pause");
 
    return 0;

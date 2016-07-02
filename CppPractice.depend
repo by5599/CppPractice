@@ -28,7 +28,7 @@
 	"CppExamples.h"
 	<iostream>
 
-1439590063 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
+1441079531 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
 	<iostream>
 	"AlgorithmLinkedList.h"
 
@@ -54,13 +54,17 @@
 1439760109 c:\users\emma\documents\github\cpppractice\algorithmsorting.h
 	"AlgorithmBase.h"
 
-1437545595 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
+1441304207 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
 	"CppExamples.h"
 	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<conio.h>
 
-1437545595 c:\users\emma\documents\github\cpppractice\cppexamples.h
+1441304244 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1440393640 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1441303854 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmStack.h"
 	"AlgorithmQueue.h"
@@ -396,7 +400,7 @@
 	<stack>
 	<unordered_map>
 
-1439936260 c:\users\emma\documents\github\cpppractice\lc0303stringtointegeratoi008.h
+1441083446 c:\users\emma\documents\github\cpppractice\lc0303stringtointegeratoi008.h
 	"Common.h"
 	<string.h>
 	<limits.h>
@@ -457,7 +461,7 @@
 	"AlgorithmBase.h"
 	<vector>
 
-1440371943 source:c:\users\emma\documents\github\cpppractice\algorithmtree.cpp
+1441082881 source:c:\users\emma\documents\github\cpppractice\algorithmtree.cpp
 	<iostream>
 	"AlgorithmTree.h"
 	<climits>
@@ -550,7 +554,7 @@
 	<unordered_map>
 	<limits.h>
 
-1440263990 c:\users\emma\documents\github\cpppractice\lc020204removeduplicatesfromsortedlist.h
+1441080199 c:\users\emma\documents\github\cpppractice\lc020204removeduplicatesfromsortedlist.h
 	"Common.h"
 	<algorithm>
 	<vector>
@@ -674,7 +678,7 @@
 	<stack>
 	<unordered_map>
 
-1440397936 c:\users\emma\documents\github\cpppractice\lccompareversionnumbers.h
+1441079997 c:\users\emma\documents\github\cpppractice\lccompareversionnumbers.h
 	"Common.h"
 	"AlgorithmBase.h"
 	"AlgorithmLinkedList.h"
@@ -682,6 +686,7 @@
 	<vector>
 	<stack>
 	<unordered_map>
+	<string.h>
 
 1440449395 c:\users\emma\documents\github\cpppractice\lcexcelsheetcolumntitle.h
 	"Common.h"

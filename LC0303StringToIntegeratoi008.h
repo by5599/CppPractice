@@ -58,6 +58,7 @@ public:
       int i = 0;
       // Skip the leading spaces
       while (str[i] == ' ' && i < n) i++;
+
       // Find the sign
       if (str[i] == '+') {
          i++;

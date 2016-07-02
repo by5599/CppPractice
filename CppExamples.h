@@ -53,4 +53,8 @@ public:
    virtual void func() {}
 };
 
+void TestDataTypesAndAlignments();
+void TestPointers();
+void testConstness();
+
 #endif
