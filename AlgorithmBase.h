@@ -13,8 +13,8 @@ struct Node
 {
    int data;
    Node* next;
-   Node(): data(0),next(nullptr) {};
-   Node(int i): data(i),next(nullptr) {};
+   Node(): data(0), next(nullptr) {};
+   Node(int i): data(i), next(nullptr) {};
 };
 
 struct TreeNode {
@@ -30,18 +30,18 @@ static TreeNode* createTree(int a[], int n)
 
     TreeNode **tree = new TreeNode*[n];
 
-    for(int i=0; i<n; i++) {
-        if (a[i]==0 ){
+    for (int i=0; i<n; i++) {
+        if (a[i] == 0) {
             tree[i] = NULL;
             continue;
         }
         tree[i] = new TreeNode(a[i]);
     }
     int pos=1;
-    for(int i=0; i<n && pos<n; i++) {
-        if (tree[i]){
+    for (int i=0; i<n && pos<n; i++) {
+        if (tree[i]) {
             tree[i]->left = tree[pos++];
-            if (pos<n){
+            if (pos < n) {
                 tree[i]->right = tree[pos++];
             }
         }
@@ -65,10 +65,10 @@ static void printTree_level_order(TreeNode *root)
 {
     queue<TreeNode*> q;
     q.push(root);
-    while (q.size()>0){
+    while (q.size() > 0) {
         TreeNode* n = q.front();
         q.pop();
-        if (n==NULL){
+        if (n == NULL) {
             cout << "# ";
             continue;
         }
@@ -81,9 +81,9 @@ static void printTree_level_order(TreeNode *root)
 
 static int printMatrix(vector< vector<int> > &vv)
 {
-    for(int i=0; i<vv.size(); i++) {
+    for (int i=0; i<vv.size(); i++) {
         cout << "[";
-        for(int j=0; j<vv[i].size(); j++) {
+        for (int j = 0; j<vv[i].size(); j++) {
             cout << " " << vv[i][j];
         }
         cout << "]" << endl;;

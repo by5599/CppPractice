@@ -458,3 +458,210 @@ printf("%d %d %d\n", get(), get(), get());
    y = i * i++;
    cout << y << endl;
 }
+
+void test5()
+{
+   typedef union
+   {
+      int a;
+      char b[10];
+      float c;
+   } Union;
+
+   Union x,y = {100};
+   x.a = 50;
+   strcpy(x.b,"hello");
+   x.c = 21.50;
+   printf("Union x : %d - %s - %f \n",x.a,x.b,x.c );
+   printf("Union y : %d - %s - %f \n",y.a,y.b,y.c);
+
+   long value;
+   value &= 0xFFFF;
+
+   int a[] = {1,2,3,4,5};
+   printf("%x %x %d %d\n", a+1, &a+1, *(a+1), *((int*)(&a + 1)-1));
+}
+
+int g_var1;
+int g_var2 = 10;
+
+void test6()
+{
+   char *str1  = "Some Text";
+   char str2[] = "Some Other Text";
+   char str3[16] = "New Text";
+   int var3 = 1;
+   int var4;
+   int arr1[5] = {1, 2, 3, 4, 5};
+   int i = 0;
+   char *p;
+   //str1[0] = 's';
+   str2[0] = 's';
+   //str2 = str3;
+   printf("%s - %p %s - %p\n", str1, str1, str2, str2);
+   printf("%d - %p %d - %p\n", g_var1, &g_var1, g_var2, &g_var2);
+   printf("%d - %p %d - %p\n", var3, &var3, var4, &var4);
+   var3 = var3++;
+   printf("%d %d %d\n", var3++, var3++, sizeof(p));
+   arr1[i++] = arr1[i++] + 2;
+   for (i = 0; i < 5; i++)
+   {
+      printf("arr1[%d] = %d\n", i, arr1[i]);
+   }
+
+   int a = 0, x = 1, y = 2;
+   a = x, y;
+   printf("%d\n", a);
+
+
+   float c = 8.0;
+   c *= 1.0 / 2;  // c gets 4.0
+   printf("c = %.3f\n", c);
+   c *= 1 / 2.0;  // c gets 2.0
+   printf("c = %.3f\n", c);
+   c *= 1.0 / 2.0;  // c gets 1.0
+   printf("c = %.3f\n", c);
+
+   c = 1.0 / 2;  // c gets 4.0
+   printf("c = %.3f\n", c);
+   c = 1 / 2.0;  // c gets 2.0
+   printf("c = %.3f\n", c);
+   c = 1.0 / 2.0;  // c gets 1.0
+   printf("c = %.3f\n", c);
+
+}
+
+void privfriendFuncA(Basic &b)
+{
+   b.priv = 9;
+   b.prot = 10;
+   b.pub = 11;
+   b.privFunc();
+   b.protFunc();
+   b.pubFunc();
+}
+
+
+void friendFuncA(Basic &b)
+{
+   b.priv = 9;
+   b.prot = 10;
+   b.pub = 11;
+   b.privFunc();
+   b.protFunc();
+   b.pubFunc();
+}
+
+void friendFuncB(Level1 &l)
+{
+//   l.priv = 0;
+   l.prot = 1;
+   l.pub = 2;
+   l.privL1 = 3;
+   l.protL1 =4;
+   l.pubL1 = 5;
+//   l.privFunc();
+   l.protFunc();
+   l.pubFunc();
+   l.privL1Func();
+   l.protL1Func();
+   l.pubL1Func();
+}
+
+void friendFuncC(Level2 &l)
+{
+//   l.priv = 0;
+   l.prot = 1;
+   l.pub = 2;
+   l.privL2 = 3;
+   l.protL2 =4;
+   l.pubL2 = 5;
+//   l.privFunc();
+   l.protFunc();
+   l.pubFunc();
+   l.privL2Func();
+   l.privL2Func();
+   l.pubL2Func();
+}
+
+void friendFuncD(Level3 &l)
+{
+//   l.priv = 0;
+   l.prot = 1;
+   l.pub = 2;
+   l.privL3 = 3;
+   l.protL3 =4;
+   l.pubL3 = 5;
+//   l.privFunc();
+   l.protFunc();
+   l.pubFunc();
+   l.privL3Func();
+   l.protL3Func();
+   l.pubL3Func();
+}
+
+
+void test7()
+{
+   Basic b;
+//   b.priv = 0;
+//   b.prot = 1;
+   b.pub = 2;
+//   b.privFunc();
+//   b.protFunc();
+   b.pubFunc();
+   friendFuncA(b);
+   privfriendFuncA(b);
+//   Basic::staticPrivFunc();
+   Basic::staticPubFunc();
+
+/*****************************/
+   Level1 l;
+//   l.priv = 0;
+//   l.prot = 1;
+   l.pub = 2;
+//   l.privL1 = 3;
+//   l.protL1 = 4;
+   l.pubL1 = 5;
+//   l.privFunc();
+//   l.protFunc();
+   l.pubFunc();
+//   l.privL1Func();
+//   l.protL1Func();
+   l.pubL1Func();
+   friendFuncB(l);
+
+/*****************************/
+   Level2 l2;
+//   l2.priv = 0;
+//   l2.prot = 1;
+//   l2.pub = 2;
+//   l2.privL2 = 3;
+//   l2.protL2 = 4;
+   l2.pubL2 = 5;
+//   l2.privFunc();
+//   l2.protFunc();
+//   l2.pubFunc();
+//   l2.privL2Func();
+//   l2.protL2Func();
+   l2.pubL2Func();
+   friendFuncC(l2);
+
+/*****************************/
+   Level3 l3;
+//   l3.priv = 0;
+//   l3.prot = 1;
+//   l3.pub = 2;
+//   l3.privL3 = 3;
+//   l3.protL3 = 4;
+   l3.pubL3 = 5;
+//   l3.privFunc();
+//   l3.protFunc();
+//   l3.pubFunc();
+//   l3.privL3Func();
+//   l3.protL3Func();
+   l3.pubL3Func();
+   friendFuncD(l3);
+
+
+}

@@ -28,7 +28,7 @@
 	"CppExamples.h"
 	<iostream>
 
-1441079531 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
+1491674771 source:c:\users\emma\documents\github\cpppractice\algorithmlinkedlist.cpp
 	<iostream>
 	"AlgorithmLinkedList.h"
 
@@ -36,7 +36,7 @@
 	"AlgorithmBase.h"
 	<vector>
 
-1440371636 c:\users\emma\documents\github\cpppractice\algorithmbase.h
+1475948854 c:\users\emma\documents\github\cpppractice\algorithmbase.h
 	<cstdlib>
 	<stdio.h>
 	<queue>
@@ -54,17 +54,19 @@
 1439760109 c:\users\emma\documents\github\cpppractice\algorithmsorting.h
 	"AlgorithmBase.h"
 
-1441304207 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
+1492062536 source:c:\users\emma\documents\github\cpppractice\cppexamples.cpp
 	"CppExamples.h"
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
 	<memory.h>
 	<conio.h>
+	<vector>
+	"Common.h"
 
-1441304244 c:\users\emma\documents\github\cpppractice\cppexamples.h
+1490572047 c:\users\emma\documents\github\cpppractice\cppexamples.h
 
-1441303854 source:c:\users\emma\documents\github\cpppractice\main.cpp
+1490469911 source:c:\users\emma\documents\github\cpppractice\main.cpp
 	"AlgorithmLinkedList.h"
 	"AlgorithmStack.h"
 	"AlgorithmQueue.h"
@@ -222,9 +224,10 @@
 
 1440141540 c:\users\emma\documents\github\cpppractice\lcchapter9.h
 
-1440651931 c:\users\emma\documents\github\cpppractice\lcchapter10.h
+1472795227 c:\users\emma\documents\github\cpppractice\lcchapter10.h
 	"LC1002UniquePaths.h"
 	"LC1007CombinationSum.h"
+	"LC1008CombinationSumII.h"
 	"LC1009GenerateParentheses.h"
 
 1440647619 c:\users\emma\documents\github\cpppractice\lcchapter11.h
@@ -650,7 +653,7 @@
 	<limits.h>
 	<stdio.h>
 
-1440475008 c:\users\emma\documents\github\cpppractice\lcchapterothers.h
+1476424319 c:\users\emma\documents\github\cpppractice\lcchapterothers.h
 	"LCMinStack.h"
 	"LCIntersectionOfTwoLinkedList.h"
 	"LCCompareVersionNumbers.h"
@@ -661,6 +664,7 @@
 	"LCRotateArray.h"
 	"LCReverseBits.h"
 	"LCNumberOf1Bits.h"
+	"LCBitwiseANDOfNumbersRange.h"
 
 1440393550 c:\users\emma\documents\github\cpppractice\lcminstack.h
 	"Common.h"
@@ -894,4 +898,17 @@
 	<vector>
 	<stack>
 	<queue>
+
+1472795430 c:\users\emma\documents\github\cpppractice\lc1008combinationsumii.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1476424276 c:\users\emma\documents\github\cpppractice\lcbitwiseandofnumbersrange.h
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
 

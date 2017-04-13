@@ -104,7 +104,7 @@ cout << ia[i] << endl;
 
 #define IGNORE_LEETCODE 1
 
-int main()
+void doAlgorithms()
 {
 #if (IGNORE_LEETCODE == 1)
    doChapter2();
@@ -125,10 +125,6 @@ int main()
 
    doLCReverseString();
 #endif
-
-    int i, &ri = i;
-    i = 5; ri = 10;
-    //std::cout << i << " " << ri << std::endl;
     doLinkedListExample1();
     //doMergeSort();
     //doCppExample1();
@@ -139,10 +135,22 @@ int main()
    //TestStack();
    //TestQueue();
    TestBinaryTree();
+}
+
+int main()
+{
+    int i, &ri = i;
+    i = 5; ri = 10;
+    //std::cout << i << " " << ri << std::endl;
    doTestPointer();
    TestPointers();
    TestDataTypesAndAlignments();
    testConstness();
+   test5();
+   test6();
+   test7();
+
+   doAlgorithms();
    ::system("pause");
 
    return 0;

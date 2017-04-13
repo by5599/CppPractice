@@ -11,6 +11,7 @@
 #include "LCRotateArray.h"
 #include "LCReverseBits.h"
 #include "LCNumberOf1Bits.h"
+#include "LCBitwiseANDOfNumbersRange.h"
 
 void doChapterOthers()
 {
@@ -25,5 +26,6 @@ void doChapterOthers()
    doLCRotateArray();
    doLCReverseBits();
    doLCNumberOf1Bits();
+   doLCBitwiseAndOfNumbersRange();
 }
 #endif

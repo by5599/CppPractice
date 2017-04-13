@@ -42,6 +42,8 @@ Generic linked lists.
 
 using namespace std;
 
+extern int m = 3;
+
 void LinkedList::initNode(Node *head, int n)
 {
    head->data = n;
