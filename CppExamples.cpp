@@ -470,7 +470,7 @@ void test5()
 
    Union x,y = {100};
    x.a = 50;
-   strcpy(x.b,"hello");
+   //strcpy(x.b,"hello");
    x.c = 21.50;
    printf("Union x : %d - %s - %f \n",x.a,x.b,x.c );
    printf("Union y : %d - %s - %f \n",y.a,y.b,y.c);
@@ -663,5 +663,10 @@ void test7()
    l3.pubL3Func();
    friendFuncD(l3);
 
+
+}
+
+void testnoarg()
+{
 
 }

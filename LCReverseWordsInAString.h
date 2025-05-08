@@ -86,7 +86,6 @@ void doLCReverseString()
 
    std::cout << "---------------------------------\n";
    std::cout << "Reverse Words in a String:\n";
-   std::cout << "The string: " << a < "\n";
 
    SolutionReverseString::reverseWords(a);
 

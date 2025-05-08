@@ -912,3 +912,836 @@
 	<stack>
 	<unordered_map>
 
+1688593667 source:c:\home\code\cpppractice\algorithmlinkedlist.cpp
+	<iostream>
+	"AlgorithmLinkedList.h"
+
+1688593667 c:\home\code\cpppractice\algorithmlinkedlist.h
+	"AlgorithmBase.h"
+	<vector>
+
+1688593667 c:\home\code\cpppractice\algorithmbase.h
+	<cstdlib>
+	<stdio.h>
+	<queue>
+	<iostream>
+
+1688593667 source:c:\home\code\cpppractice\algorithmqueue.cpp
+	<iostream>
+	"AlgorithmQueue.h"
+
+1688593667 c:\home\code\cpppractice\algorithmqueue.h
+	"AlgorithmBase.h"
+	<vector>
+
+1688593667 source:c:\home\code\cpppractice\algorithmsearching.cpp
+	<iostream>
+	"Common.h"
+	"AlgorithmSearching.h"
+
+1688593668 c:\home\code\cpppractice\common.h
+	<iostream>
+	<vector>
+	"AlgorithmBase.h"
+
+1688593667 c:\home\code\cpppractice\algorithmsearching.h
+	"AlgorithmBase.h"
+	<vector>
+
+1688593667 source:c:\home\code\cpppractice\algorithmsorting.cpp
+	<iostream>
+	<conio.h>
+	"AlgorithmSorting.h"
+	"Common.h"
+	<deque>
+	<climits>
+	<vector>
+
+1688593667 c:\home\code\cpppractice\algorithmsorting.h
+	"AlgorithmBase.h"
+
+1688593667 source:c:\home\code\cpppractice\algorithmstack.cpp
+	<iostream>
+	"AlgorithmStack.h"
+
+1688593667 c:\home\code\cpppractice\algorithmstack.h
+	"AlgorithmBase.h"
+	<vector>
+
+1688593667 source:c:\home\code\cpppractice\algorithmtree.cpp
+	<iostream>
+	"AlgorithmTree.h"
+	<climits>
+	<deque>
+
+1688593667 c:\home\code\cpppractice\algorithmtree.h
+	"AlgorithmBase.h"
+	<vector>
+
+1708635094 source:c:\home\code\cpppractice\cppexamples.cpp
+	"CppExamples.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<conio.h>
+	<vector>
+	"Common.h"
+
+1688593668 c:\home\code\cpppractice\cppexamples.h
+
+1745450074 source:c:\home\code\cpppractice\main.cpp
+	"AlgorithmLinkedList.h"
+	"AlgorithmStack.h"
+	"AlgorithmQueue.h"
+	"AlgorithmTree.h"
+	"AlgorithmSearching.h"
+	"AlgorithmSorting.h"
+	"CppExamples.h"
+	"LCChapter2.h"
+	"LCChapter3.h"
+	"LCChapter4.h"
+	"LCChapter5.h"
+	"LCChapter6.h"
+	"LCChapter7.h"
+	"LCChapter8.h"
+	"LCChapter9.h"
+	"LCChapter10.h"
+	"LCChapter11.h"
+	"LCChapter12.h"
+	"LCChapter13.h"
+	"LCChapter14.h"
+	"LCChapter15.h"
+	"LCChapterOthers.h"
+	"LCReverseWordsInAString.h"
+	<thread>
+	<windows.h>
+	"Common.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1688593668 c:\home\code\cpppractice\lcchapter2.h
+	"LC020101RemoveDuplicatesFromSortedArray026.h"
+	"LC020102RemoveDuplicatesFromSortedArrayII080.h"
+	"LC020103SearchInRotatedSortedArray033.h"
+	"LC020104SearchInRotatedSortedArrayII081.h"
+	"LC020105MedianOfTwoSortedArrays_004.h"
+	"LC020106LongestConsecutiveSequence.h"
+	"LC020107TwoSum.h"
+	"LC020108ThreeSum.h"
+	"LC020109ThreeSumClosest.h"
+	"LC020110FourSum.h"
+	"LC020111RemoveElement.h"
+	"LC020112NextPermutation.h"
+	"LC020113PermutationSequence.h"
+	"LC020114ValidSudoku.h"
+	"LC020115TrappingRainWater.h"
+	"LC020116RotatImage.h"
+	"LC020201AddTwoNumbers.h"
+	"LC020204RemoveDuplicatesFromSortedList.h"
+	"LC020206RotateList.h"
+	"LC020207RemoveNthNodeFromEndOfList.h"
+	"LC020208SwapNodesInPairs.h"
+	"LC020211LinkedListCycle.h"
+	"LC1102Sqrt.h"
+	"LC020117PlusOne.h"
+	"LC020118ClimbingStairs.h"
+	"LCReverseLinkedList.h"
+
+1688593668 c:\home\code\cpppractice\lc020101removeduplicatesfromsortedarray026.h
+	"Common.h"
+
+1688593668 c:\home\code\cpppractice\lc020102removeduplicatesfromsortedarrayii080.h
+	"Common.h"
+
+1688593668 c:\home\code\cpppractice\lc020103searchinrotatedsortedarray033.h
+	"Common.h"
+
+1688593668 c:\home\code\cpppractice\lc020104searchinrotatedsortedarrayii081.h
+	"Common.h"
+
+1688593668 c:\home\code\cpppractice\lc020105medianoftwosortedarrays_004.h
+	"Common.h"
+	<algorithm>
+
+1688593668 c:\home\code\cpppractice\lc020106longestconsecutivesequence.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc020107twosum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc020108threesum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc020109threesumclosest.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020110foursum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020111removeelement.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020112nextpermutation.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020113permutationsequence.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020114validsudoku.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020115trappingrainwater.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020116rotatimage.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020201addtwonumbers.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc020204removeduplicatesfromsortedlist.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020206rotatelist.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020207removenthnodefromendoflist.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+
+1688593668 c:\home\code\cpppractice\lc020208swapnodesinpairs.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+
+1688593668 c:\home\code\cpppractice\lc020211linkedlistcycle.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1102sqrt.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc020117plusone.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lc020118climbingstairs.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<limits.h>
+
+1688593668 c:\home\code\cpppractice\lcreverselinkedlist.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapter3.h
+	"LC0303StringToIntegeratoi008.h"
+	"LC0301ValidPalindrome.h"
+	"LC0302strStr.h"
+	"LC0304AddBinary.h"
+	"LC0305LongestPalindromicSubstring.h"
+	"LC0308LongestCommonPrefix.h"
+	"LC0310IntegerToRoman.h"
+	"LC0311RomanToInteger.h"
+	"LC0312CountAndSay.h"
+	"LC0313Anagrams.h"
+	"LC0314SimplifyPath.h"
+	"LC0315LengthOfLastWord.h"
+
+1688593668 c:\home\code\cpppractice\lc0303stringtointegeratoi008.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0301validpalindrome.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc0302strstr.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0304addbinary.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0305longestpalindromicsubstring.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0308longestcommonprefix.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0310integertoroman.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0311romantointeger.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc0312countandsay.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+
+1688593668 c:\home\code\cpppractice\lc0313anagrams.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+	<map>
+
+1688593668 c:\home\code\cpppractice\lc0314simplifypath.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+	<map>
+
+1688593668 c:\home\code\cpppractice\lc0315lengthoflastword.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<sstream>
+	<ctype.h>
+
+1688593668 c:\home\code\cpppractice\lcchapter4.h
+	"LC040101ValidParentheses.h"
+
+1688593668 c:\home\code\cpppractice\lc040101validparentheses.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<stack>
+
+1688593668 c:\home\code\cpppractice\lcchapter5.h
+	"LC050101BinaryTreePreorderTraversal.h"
+	"LC050104BinaryTreeLevelOrderTraversal.h"
+	"LC050105BinaryTreeLevelOrderTraversalII.h"
+	"LC050108SameTree.h"
+	"LC050109SymmetricTree.h"
+	"LC050110BalancedBinaryTree.h"
+	"LC050401MinimumDepthOfBinaryTree.h"
+	"LC050402MaximumDepthOfBinaryTree.h"
+	"LC050403PathSum.h"
+
+1688593668 c:\home\code\cpppractice\lc050101binarytreepreordertraversal.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+
+1688593668 c:\home\code\cpppractice\lc050104binarytreelevelordertraversal.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+	<stdlib.h>
+
+1688593668 c:\home\code\cpppractice\lc050105binarytreelevelordertraversalii.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+	<stdlib.h>
+
+1688593668 c:\home\code\cpppractice\lc050108sametree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc050109symmetrictree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+	<stdlib.h>
+
+1688593668 c:\home\code\cpppractice\lc050110balancedbinarytree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc050401minimumdepthofbinarytree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc050402maximumdepthofbinarytree.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc050403pathsum.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lcchapter6.h
+	"LC0601MergeSortedArray.h"
+	"LC0602MergeTwoSortedList.h"
+
+1688593668 c:\home\code\cpppractice\lc0601mergesortedarray.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc0602mergetwosortedlist.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapter7.h
+	"LC0701SearchForARange.h"
+	"LC0702SearchInsertPosition.h"
+	"LC0703SearchA2DMatrix.h"
+
+1688593668 c:\home\code\cpppractice\lc0701searchforarange.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc0702searchinsertposition.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc0703searcha2dmatrix.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lcchapter8.h
+	"LC0803Permutations.h"
+	"LC0806LetterCombinationsOfAPhoneNumber.h"
+
+1688593668 c:\home\code\cpppractice\lc0803permutations.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lc0806lettercombinationsofaphonenumber.h
+	"Common.h"
+	"AlgorithmBase.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<queue>
+
+1688593668 c:\home\code\cpppractice\lcchapter9.h
+
+1688593668 c:\home\code\cpppractice\lcchapter10.h
+	"LC1002UniquePaths.h"
+	"LC1007CombinationSum.h"
+	"LC1008CombinationSumII.h"
+	"LC1009GenerateParentheses.h"
+
+1688593668 c:\home\code\cpppractice\lc1002uniquepaths.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1007combinationsum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1008combinationsumii.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1009generateparentheses.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapter11.h
+	"LC1101Pow.h"
+	"LC1102Sqrt.h"
+
+1688593668 c:\home\code\cpppractice\lc1101pow.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapter12.h
+	"LC1205LongestSubstringWithoutRepeatCharacters.h"
+	"LC1206ContainerWithMostWater.h"
+
+1688593668 c:\home\code\cpppractice\lc1205longestsubstringwithoutrepeatcharacters.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1206containerwithmostwater.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapter13.h
+	"LC1302MaximumSubarray.h"
+	"LC1308MinimumPathSum.h"
+
+1688593668 c:\home\code\cpppractice\lc1302maximumsubarray.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1308minimumpathsum.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapter14.h
+
+1688593668 c:\home\code\cpppractice\lcchapter15.h
+	"LC1501ReverseInteger.h"
+	"LC1512ZigZagConversion.h"
+	"LC1502PalindromeNumber.h"
+	"LC1508PascalTriangle.h"
+	"LC1509PascalTriangleII.h"
+	"LC1513DivideTwoIntegers.h"
+
+1688593668 c:\home\code\cpppractice\lc1501reverseinteger.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc1512zigzagconversion.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lc1502palindromenumber.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc1508pascaltriangle.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc1509pascaltriangleii.h
+	"Common.h"
+	<string.h>
+	<limits.h>
+	<stdio.h>
+
+1688593668 c:\home\code\cpppractice\lc1513dividetwointegers.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcchapterothers.h
+	"LCMinStack.h"
+	"LCIntersectionOfTwoLinkedList.h"
+	"LCCompareVersionNumbers.h"
+	"LCExcelSheetColumnTitle.h"
+	"LCExcelSheetColumnNumber.h"
+	"LCMajorityElement.h"
+	"LCTwoSumIII.h"
+	"LCRotateArray.h"
+	"LCReverseBits.h"
+	"LCNumberOf1Bits.h"
+	"LCBitwiseANDOfNumbersRange.h"
+
+1688593668 c:\home\code\cpppractice\lcminstack.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<unordered_map>
+	<string>
+
+1688593668 c:\home\code\cpppractice\lcintersectionoftwolinkedlist.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lccompareversionnumbers.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<string.h>
+
+1688593668 c:\home\code\cpppractice\lcexcelsheetcolumntitle.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcexcelsheetcolumnnumber.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcmajorityelement.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lctwosumiii.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcrotatearray.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcreversebits.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcnumberof1bits.h
+	"Common.h"
+	"AlgorithmBase.h"
+	"AlgorithmLinkedList.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1688593668 c:\home\code\cpppractice\lcbitwiseandofnumbersrange.h
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1704325010 c:\home\code\cpppractice\lcreversewordsinastring.h
+	"Common.h"
+	<algorithm>
+	<vector>
+	<stack>
+	<unordered_map>
+	<string>
+
